@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "Rise of the Hero",
   "resources": [
+    {"id":{"name":"Spr_Sword","path":"sprites/Spr_Sword/Spr_Sword.yy",},"order":17,},
     {"id":{"name":"Spr_Hero","path":"sprites/Spr_Hero/Spr_Hero.yy",},"order":15,},
     {"id":{"name":"obj_Hero","path":"objects/obj_Hero/obj_Hero.yy",},"order":14,},
     {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},"order":16,},

@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "Obj_Sword",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Sword",
+    "path": "sprites/Spr_Sword/Spr_Sword.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
