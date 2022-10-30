@@ -1,4 +1,6 @@
-
+var fistMin
+var fistTimerMax
+var xy_mod
 if fistTimer < fistMin
 	{
 		if keyboard_check_pressed(vk_up)
