@@ -53,4 +53,4 @@ if fistTimer >= fistTimerMax
 y = obj_Hero.y + y_mod
 x = obj_Hero.x + x_mod
 
-image_blend = c_gray
+//image_blend = c_gray
