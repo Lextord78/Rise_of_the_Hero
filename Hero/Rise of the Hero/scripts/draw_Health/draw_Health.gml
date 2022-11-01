@@ -1,4 +1,4 @@
-draw_healthbar(
+/*draw_healthbar(
 	x,
 	y - 8,
 	x + sprite_width,
@@ -10,4 +10,4 @@ draw_healthbar(
 	0,
 	true,
 	false
-)
+) */
