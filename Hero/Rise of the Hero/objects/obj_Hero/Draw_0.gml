@@ -1,3 +1,3 @@
 draw_self();
 
-draw_Health();
+draw_Health(currentHp,maxHp);

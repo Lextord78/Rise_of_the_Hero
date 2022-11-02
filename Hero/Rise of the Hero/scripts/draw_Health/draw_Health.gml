@@ -1,4 +1,6 @@
-/*draw_healthbar(
+function draw_Health(currentHp, maxHp)
+{
+draw_healthbar(
 	x,
 	y - 8,
 	x + sprite_width,
@@ -10,4 +12,5 @@
 	0,
 	true,
 	false
-) */
+	) 
+}

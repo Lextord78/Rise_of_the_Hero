@@ -23,4 +23,4 @@ currentY = y;
 
 lerpPos = 0;
 
-//init_health(10);
+init_health(10);
