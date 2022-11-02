@@ -5,12 +5,12 @@
   "resources": [
     {"id":{"name":"draw_Health","path":"scripts/draw_Health/draw_Health.yy",},"order":1,},
     {"id":{"name":"init_health","path":"scripts/init_health/init_health.yy",},"order":0,},
-    {"id":{"name":"Spr_Sword","path":"sprites/Spr_Sword/Spr_Sword.yy",},"order":17,},
-    {"id":{"name":"Spr_Hero","path":"sprites/Spr_Hero/Spr_Hero.yy",},"order":15,},
-    {"id":{"name":"Senemy","path":"sprites/Senemy/Senemy.yy",},"order":18,},
-    {"id":{"name":"obj_Hero","path":"objects/obj_Hero/obj_Hero.yy",},"order":14,},
-    {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},"order":16,},
-    {"id":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"order":19,},
+    {"id":{"name":"Spr_Sword","path":"sprites/Spr_Sword/Spr_Sword.yy",},"order":0,},
+    {"id":{"name":"Spr_Hero","path":"sprites/Spr_Hero/Spr_Hero.yy",},"order":1,},
+    {"id":{"name":"Senemy","path":"sprites/Senemy/Senemy.yy",},"order":2,},
+    {"id":{"name":"obj_Hero","path":"objects/obj_Hero/obj_Hero.yy",},"order":1,},
+    {"id":{"name":"Obj_Sword","path":"objects/Obj_Sword/Obj_Sword.yy",},"order":2,},
+    {"id":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

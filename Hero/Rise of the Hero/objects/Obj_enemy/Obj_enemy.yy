@@ -32,7 +32,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Rise of the Hero",
-    "path": "Rise of the Hero.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }

@@ -67,7 +67,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Rise of the Hero",
-    "path": "Rise of the Hero.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }
