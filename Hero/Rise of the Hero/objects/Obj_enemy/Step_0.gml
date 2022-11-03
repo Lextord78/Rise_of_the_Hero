@@ -94,3 +94,5 @@ if firstTimeModeSwitch
 		}
 		
 		firstTimeModeSwitch = false;
+		
+		

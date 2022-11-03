@@ -51,6 +51,11 @@ if fistTimer >= fistTimerMax
 y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
 x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
 
-//if collision_circle(x, )
-
-//image_blend = c_gray		
+if collision_circle(x,y,20,Obj_enemy,false,true)
+{
+	giveDamge = init_health(10) -1;
+	if (init_health() <= 0)
+	{
+		instance_destroy(Obj_enemy);
+	}
+}
