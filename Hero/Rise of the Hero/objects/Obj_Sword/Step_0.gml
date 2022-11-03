@@ -1,9 +1,9 @@
 
-if fistTimer < fistMin
+if fistTimer <= fistMin // cheack if fistTimer is less then or equeal to fistMIn
 	{
 		if keyboard_check_pressed(vk_up)
 		{
-			y_mod = -xy_mod
+			y_mod = -xy_mod 
 			uPressed = true
 		}
 		if keyboard_check_pressed(vk_down)
@@ -48,7 +48,9 @@ if fistTimer >= fistTimerMax
 		fistTimer = 0
 	}
 
-y = obj_Hero.y + y_mod
-x = obj_Hero.x + x_mod
+y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
+x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
+
+//if collision_circle(x, )
 
 //image_blend = c_gray		

@@ -3,3 +3,5 @@
 
 spd = 10;
 fistTimer = 0;
+hasSword = false;
+canMove = true
