@@ -72,12 +72,12 @@ if mode = 1
 	{
 		if obj_Hero.x > x
 		{
-			currentX += mode1spd;
+			currentX -= mode1spd;
 		}
 		
 		if obj_Hero.x < x
 		{
-			currentX -= mode1spd;
+			currentX += mode1spd;
 		}
 	}
 // chases the player on the y axis
@@ -85,12 +85,12 @@ if mode = 1
 	{
 		if obj_Hero.y > y
 		{
-			currentY += mode1spd;
+			currentY -= mode1spd;
 		}
 		
 		if obj_Hero.y < y
 		{
-			currentY -= mode1spd;
+			currentY += mode1spd;
 		}
 	}
 

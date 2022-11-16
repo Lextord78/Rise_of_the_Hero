@@ -67,6 +67,7 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 		wBow = instance_nearest(x,y,Obj_BowPic);
 		instance_destroy(wBow);
 		hasBow = true;
+		arrows += 20
 		instance_create_depth(x,y,0,Obj_Bow);
 	}
 	
@@ -133,7 +134,7 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 
 
 
-if collision_circle(x,y,20,Obj_enemy,false,true)
+if collision_circle(x,y,28,Obj_enemy,false,true)
 {
 	var nearEnemy = instance_nearest(x,y,Obj_enemy)
 	instance_destroy(nearEnemy)

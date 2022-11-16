@@ -22,7 +22,7 @@ playerFace = true
 hasBow = false
 //noBow = false
 //noArrow = false
-arrows = 20
+arrows = 0
 
 currentHp = 10
 
