@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-if room = Level2B {
+/*if room = Level2B {
 	goToRoom = Level2C
 }
 
-/*if room = Level2C {
+if room = Level2C {
 	goToRoom = Level2D
 }
 

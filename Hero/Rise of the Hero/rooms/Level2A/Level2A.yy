@@ -53,6 +53,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_86BF7D7","properties":[],"isDnd":false,"objectId":{"name":"Obj_L2OpenDoor","path":"objects/Obj_L2OpenDoor/Obj_L2OpenDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":100.0,"y":400.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_247765B2","properties":[],"isDnd":false,"objectId":{"name":"Obj_L1Button","path":"objects/Obj_L1Button/Obj_L1Button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61B946D5","properties":[],"isDnd":false,"objectId":{"name":"Obj_L1Button","path":"objects/Obj_L1Button/Obj_L1Button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1098.0,"y":629.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634884D6","properties":[],"isDnd":false,"objectId":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":800.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Water","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BDA5C6E","properties":[],"isDnd":false,"objectId":{"name":"Obj_Water","path":"objects/Obj_Water/Obj_Water.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":96.0,},
@@ -240,6 +241,7 @@
     {"name":"inst_50D19DD0","path":"rooms/Level2A/Level2A.yy",},
     {"name":"inst_247765B2","path":"rooms/Level2A/Level2A.yy",},
     {"name":"inst_61B946D5","path":"rooms/Level2A/Level2A.yy",},
+    {"name":"inst_634884D6","path":"rooms/Level2A/Level2A.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
