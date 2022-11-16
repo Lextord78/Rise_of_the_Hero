@@ -4,4 +4,26 @@
 spd = 10;
 fistTimer = 0; // buffer before attacting agian.
 hasSword = false;
-canMove = true
+hasBow = false;
+//hasArrow = false;
+canMove = true;
+
+arrowspd = 5
+arrowhspd = 5
+arrowvspd = 5
+
+playerUp = true
+playerLeft = false
+playerDown = false
+playerRight = false
+
+playerFace = true
+
+hasBow = false
+//noBow = false
+//noArrow = false
+arrows = 20
+
+currentHp = 10
+
+init_health(10);
