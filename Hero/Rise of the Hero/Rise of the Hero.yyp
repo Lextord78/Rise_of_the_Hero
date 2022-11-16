@@ -9,6 +9,7 @@
     {"id":{"name":"Spr_eArcher","path":"sprites/Spr_eArcher/Spr_eArcher.yy",},"order":5,},
     {"id":{"name":"Obj_eArcher","path":"objects/Obj_eArcher/Obj_eArcher.yy",},"order":9,},
     {"id":{"name":"Obj_BowPic","path":"objects/Obj_BowPic/Obj_BowPic.yy",},"order":6,},
+    {"id":{"name":"snd_arrow","path":"sounds/snd_arrow/snd_arrow.yy",},"order":0,},
     {"id":{"name":"Spr_Sword","path":"sprites/Spr_Sword/Spr_Sword.yy",},"order":0,},
     {"id":{"name":"Spr_Bow","path":"sprites/Spr_Bow/Spr_Bow.yy",},"order":3,},
     {"id":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"order":5,},
