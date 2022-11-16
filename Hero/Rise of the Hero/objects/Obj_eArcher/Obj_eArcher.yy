@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Hero",
+  "name": "Obj_eArcher",
   "spriteId": {
-    "name": "Spr_Hero",
-    "path": "sprites/Spr_Hero/Spr_Hero.yy",
+    "name": "Spr_eArcher",
+    "path": "sprites/Spr_eArcher/Spr_eArcher.yy",
   },
   "solid": false,
   "visible": true,
