@@ -5,6 +5,7 @@ fireMin = 5;
 fireMax = 10;
 giveDamge = -1;
 
+xy_mod = 64 // distance from player
 y_mod = 1; // locations
 x_mod = 1; // locations
 mode1spd = 1;
