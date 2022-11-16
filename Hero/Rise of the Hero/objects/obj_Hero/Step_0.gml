@@ -144,3 +144,4 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 if currentHp <= 0{
 	instance_destroy(self)
 }
+if 

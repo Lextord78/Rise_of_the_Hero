@@ -6,7 +6,7 @@
     "name": "L2OpenDoor",
     "path": "sprites/L2OpenDoor/L2OpenDoor.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

@@ -6,7 +6,7 @@
     "name": "L1ClosedDoor",
     "path": "sprites/L1ClosedDoor/L1ClosedDoor.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
