@@ -55,6 +55,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F55134B","properties":[],"isDnd":false,"objectId":{"name":"Obj_L2OpenDoor","path":"objects/Obj_L2OpenDoor/Obj_L2OpenDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":647.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26CFC85B","properties":[],"isDnd":false,"objectId":{"name":"Obj_L2TopWall","path":"objects/Obj_L2TopWall/Obj_L2TopWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.65625,"scaleY":5.0,"imageIndex":0,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":508.5,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40866DE5","properties":[],"isDnd":false,"objectId":{"name":"Obj_L2TopWall","path":"objects/Obj_L2TopWall/Obj_L2TopWall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.65625,"scaleY":5.0,"imageIndex":0,"imageSpeed":0.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":785.5,"y":80.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1990A97A","properties":[],"isDnd":false,"objectId":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":768.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_4_1","spriteId":{"name":"L2Floor","path":"sprites/L2Floor/L2Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":48.0,},
@@ -215,6 +216,7 @@
     {"name":"inst_6F55134B","path":"rooms/Level2B/Level2B.yy",},
     {"name":"inst_26CFC85B","path":"rooms/Level2B/Level2B.yy",},
     {"name":"inst_40866DE5","path":"rooms/Level2B/Level2B.yy",},
+    {"name":"inst_1990A97A","path":"rooms/Level2B/Level2B.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

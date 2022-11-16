@@ -144,4 +144,9 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 if currentHp <= 0{
 	instance_destroy(self)
 }
-if 
+
+if Obj_Manager.amountEnemy <= 0{
+	if collision_circle(x,y,30,Obj_DoorOpen,false,true){
+		room_goto(Obj_DoorOpen.goToRoom)
+	}
+}

@@ -1,20 +1,14 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_L2ClosedDoor",
-  "spriteId": {
-    "name": "L2ClosedDoor",
-    "path": "sprites/L2ClosedDoor/L2ClosedDoor.yy",
-  },
+  "name": "Obj_DoorOpen",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_DoorClosed",
-    "path": "objects/Obj_DoorClosed/Obj_DoorClosed.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

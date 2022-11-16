@@ -27,6 +27,7 @@
     {"id":{"name":"FiveDots","path":"sprites/FiveDots/FiveDots.yy",},"order":20,},
     {"id":{"name":"Obj_L1OpenDoor","path":"objects/Obj_L1OpenDoor/Obj_L1OpenDoor.yy",},"order":14,},
     {"id":{"name":"Obj_L2SideWall","path":"objects/Obj_L2SideWall/Obj_L2SideWall.yy",},"order":20,},
+    {"id":{"name":"Obj_DoorOpen","path":"objects/Obj_DoorOpen/Obj_DoorOpen.yy",},"order":25,},
     {"id":{"name":"L2ClosedDoor","path":"sprites/L2ClosedDoor/L2ClosedDoor.yy",},"order":22,},
     {"id":{"name":"Obj_BowPic","path":"objects/Obj_BowPic/Obj_BowPic.yy",},"order":6,},
     {"id":{"name":"L1SideWall","path":"sprites/L1SideWall/L1SideWall.yy",},"order":10,},
@@ -39,6 +40,7 @@
     {"id":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"order":5,},
     {"id":{"name":"Level1A","path":"rooms/Level1A/Level1A.yy",},"order":1,},
     {"id":{"name":"Obj_ArrowPic","path":"objects/Obj_ArrowPic/Obj_ArrowPic.yy",},"order":8,},
+    {"id":{"name":"Obj_DoorClosed","path":"objects/Obj_DoorClosed/Obj_DoorClosed.yy",},"order":26,},
     {"id":{"name":"Obj_L1TopWall","path":"objects/Obj_L1TopWall/Obj_L1TopWall.yy",},"order":13,},
     {"id":{"name":"Spr_Hero","path":"sprites/Spr_Hero/Spr_Hero.yy",},"order":1,},
     {"id":{"name":"L2SideWall","path":"sprites/L2SideWall/L2SideWall.yy",},"order":25,},
@@ -116,10 +118,10 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
   ],
   "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","loadType":"default","directory":"","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.9.1.51",
+    "IDEVersion": "2022.8.1.37",
   },
 }
