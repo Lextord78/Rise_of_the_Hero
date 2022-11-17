@@ -24,6 +24,6 @@ hasBow = false
 //noArrow = false
 arrows = 0
 
-currentHp = 10
+currentHp = 5
 
 init_health(10);

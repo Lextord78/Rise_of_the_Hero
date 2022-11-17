@@ -11,7 +11,7 @@ startEnd = false;
 mode = 0;
 
 mode0spd = random_range(0.005,0.02);
-mode1spd = random_range(1,2);
+mode1spd = random_range(1,4);
 
 firstTimeModeSwitch = false;
 
@@ -23,4 +23,7 @@ currentY = y;
 
 lerpPos = 0;
 
+targerBuffer = 64
+randomTargetX = random_range(-targerBuffer, targerBuffer)
+randomTargetY = random_range(-targerBuffer, targerBuffer)
 init_health(10);

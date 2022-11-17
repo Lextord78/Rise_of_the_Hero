@@ -51,11 +51,21 @@ if fistTimer >= fistTimerMax
 y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
 x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
 
-if collision_circle(x,y,20,Obj_enemy,false,true)
+if !hasHit 
 {
-	giveDamge = init_health(10) -1;
-	if (init_health() <= 0)
+	if collision_circle(x,y,20,Obj_enemy, false, true)
 	{
-		instance_destroy(Obj_enemy);
+	hasHit = true
+	hitEnemy = instance_nearest(x,y,Obj_enemy)
+	hitEnemy.currentHp -= 1;
+	if hitEnemy.currentHp <= 0
+	{
+		instance_destroy(hitEnemy)
 	}
+	}
+}
+
+if !collision_circle(x,y,20,Obj_enemy, false, true)
+{
+	hasHit = false
 }

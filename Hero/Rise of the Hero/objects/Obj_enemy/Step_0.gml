@@ -45,12 +45,12 @@ if mode = 0
 // chases the player on the x axis	
 if mode = 1
 	{
-		if obj_Hero.x > x
+		if obj_Hero.x + randomTargetX > x
 		{
 			currentX += mode1spd;
 		}
 		
-		if obj_Hero.x < x
+		if obj_Hero.x + randomTargetX < x
 		{
 			currentX -= mode1spd;
 		}
@@ -58,12 +58,12 @@ if mode = 1
 // chases the player on the y axis
 if mode = 1
 	{
-		if obj_Hero.y > y
+		if obj_Hero.y + randomTargetY > y
 		{
-			currentY += mode1spd + random_range(0,1) ;
+			currentY += mode1spd + random_range(0,1) ; // speed of the enemy of positions
 		}
 		
-		if obj_Hero.y < y
+		if obj_Hero.y + randomTargetY < y
 		{
 			currentY -= mode1spd;
 		}

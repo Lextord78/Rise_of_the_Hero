@@ -4,7 +4,9 @@ fistTimer = 0; // buffer before attacting agian.
 fistMin = 2;  // buffer befor being able to attac again
 fistTimerMax = 30; // speed of the attact.
 xy_mod = 64;  // speed
-giveDamge = 1;
+giveDamge = 5;
+
+hasHit = false
 
 y_mod = 1; // locations
 x_mod = 1; // locations
