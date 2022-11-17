@@ -60,7 +60,7 @@ if mode = 1
 	{
 		if obj_Hero.y > y
 		{
-			currentY += mode1spd;
+			currentY += mode1spd + random_range(0,1) ;
 		}
 		
 		if obj_Hero.y < y

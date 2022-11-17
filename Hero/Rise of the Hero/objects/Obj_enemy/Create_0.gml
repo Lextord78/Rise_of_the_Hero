@@ -10,8 +10,8 @@ startEnd = false;
 
 mode = 0;
 
-mode0spd = 0.005;
-mode1spd = 1;
+mode0spd = random_range(0.005,0.02);
+mode1spd = random_range(1,2);
 
 firstTimeModeSwitch = false;
 

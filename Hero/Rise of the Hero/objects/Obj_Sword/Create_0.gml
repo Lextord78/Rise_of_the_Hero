@@ -2,7 +2,7 @@
 // You can write your code in this editor
 fistTimer = 0; // buffer before attacting agian.
 fistMin = 2;  // buffer befor being able to attac again
-fistTimerMax = 10; // speed of the attact.
+fistTimerMax = 30; // speed of the attact.
 xy_mod = 64;  // speed
 giveDamge = 1;
 
