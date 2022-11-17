@@ -57,7 +57,7 @@ if !hasHit
 	{
 	hasHit = true
 	hitEnemy = instance_nearest(x,y,Obj_enemy)
-	hitEnemy.currentHp -= 1;
+	hitEnemy.currentHp -= 3;
 	if hitEnemy.currentHp <= 0
 	{
 		instance_destroy(hitEnemy)
