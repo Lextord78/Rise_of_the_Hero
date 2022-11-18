@@ -89,9 +89,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Level1A","path":"rooms/Level1A/Level1A.yy",},},
     {"roomId":{"name":"Level1B","path":"rooms/Level1B/Level1B.yy",},},
-    {"roomId":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
     {"roomId":{"name":"Level1C","path":"rooms/Level1C/Level1C.yy",},},
     {"roomId":{"name":"Level1D","path":"rooms/Level1D/Level1D.yy",},},
     {"roomId":{"name":"Level2A","path":"rooms/Level2A/Level2A.yy",},},

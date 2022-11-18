@@ -150,3 +150,19 @@ if Obj_Manager.amountEnemy <= 0{
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
+
+/*if (place_meeting(x, y, Obj_enemy && take_hit == 0))
+{
+	take_hit = 15
+	if(image_xscale == 1) hit_dir = 1
+}
+
+
+if (take_hit > 0)
+{
+	if(hit_dir ==1) hspd = -5
+	else hspd = 5
+	
+	take_hit--
+}*/
+

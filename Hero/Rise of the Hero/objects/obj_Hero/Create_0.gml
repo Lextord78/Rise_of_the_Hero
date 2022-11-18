@@ -26,4 +26,7 @@ arrows = 0
 
 currentHp = 5
 
+take_hit = 0
+hit_dir = 0
+
 init_health(10);
