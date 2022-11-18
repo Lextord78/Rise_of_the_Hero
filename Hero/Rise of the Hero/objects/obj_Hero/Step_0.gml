@@ -151,18 +151,48 @@ if Obj_Manager.amountEnemy <= 0{
 	}
 }
 
-/*if (place_meeting(x, y, Obj_enemy && take_hit == 0))
+/*if place_meeting(x, y, Obj_enemy and take_hit == 0)
 {
 	take_hit = 15
 	if(image_xscale == 1) hit_dir = 1
+	else hit_dir = -1
+	
+	if(image_yscale == -1) hit_dir = -1
+	else hit_dir = 1
 }
 
 
 if (take_hit > 0)
 {
-	if(hit_dir ==1) hspd = -5
+	if(hit_dir == 1) hspd = -5
 	else hspd = 5
 	
+	if(hit_dir == 1) vspd = 5
+	else vspd = -5
+	
 	take_hit--
-}*/
+	take_hit++
+} */
 
+///Collision checks
+
+//Set up vars
+var a,xoff,yoff,mag;
+
+a = point_direction(x, y, other.x, other.y);    //Get the direction from the colliding object
+xoff = lengthdir_x(1, a);                       //Get the offset vector
+yoff = lengthdir_y(1, a);
+om = other.mass / mass;                         //start the fake "physics mass" calculations
+mm = mass / other.mass;
+mag = sqrt((om * om) + (mm * mm));
+om /= mag;
+mm /= mag;
+
+//Move out of collision
+while (place_meeting(x, y, other.id))
+{
+x -= xoff * om; //Move the instance out of collision
+y -= yoff * om;
+other.x += xoff * mm; //Move the other instance out of the collision
+other.y += yoff * mm;
+}

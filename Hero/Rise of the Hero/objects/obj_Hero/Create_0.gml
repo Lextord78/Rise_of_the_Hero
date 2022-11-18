@@ -26,7 +26,9 @@ arrows = 0
 
 currentHp = 5
 
-take_hit = 0
-hit_dir = 0
-
+/*take_hit = 0
+hit_dir = 0*/
+om = 10
+mm = 1000000
+mass = 30
 init_health(10);

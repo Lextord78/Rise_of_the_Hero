@@ -19,11 +19,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Object","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17EE0CFC","properties":[],"isDnd":false,"objectId":{"name":"obj_Hero","path":"objects/obj_Hero/obj_Hero.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1B5C7B6F","properties":[],"isDnd":false,"objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":480.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_36C32E6E","properties":[],"isDnd":false,"objectId":{"name":"Obj_SwordPic","path":"objects/Obj_SwordPic/Obj_SwordPic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_134F8DFF","properties":[],"isDnd":false,"objectId":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":0.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_50C57842","properties":[],"isDnd":false,"objectId":{"name":"Obj_BowPic","path":"objects/Obj_BowPic/Obj_BowPic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":256.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_639BF570","properties":[],"isDnd":false,"objectId":{"name":"Obj_eArcher","path":"objects/Obj_eArcher/Obj_eArcher.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":576.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1F3987C1","properties":[],"isDnd":false,"objectId":{"name":"Obj_ArrowPic","path":"objects/Obj_ArrowPic/Obj_ArrowPic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":32.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
@@ -33,11 +29,7 @@
   "instanceCreationOrder": [
     {"name":"inst_17EE0CFC","path":"rooms/TestRoom/TestRoom.yy",},
     {"name":"inst_1B5C7B6F","path":"rooms/TestRoom/TestRoom.yy",},
-    {"name":"inst_36C32E6E","path":"rooms/TestRoom/TestRoom.yy",},
     {"name":"inst_134F8DFF","path":"rooms/TestRoom/TestRoom.yy",},
-    {"name":"inst_50C57842","path":"rooms/TestRoom/TestRoom.yy",},
-    {"name":"inst_639BF570","path":"rooms/TestRoom/TestRoom.yy",},
-    {"name":"inst_1F3987C1","path":"rooms/TestRoom/TestRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
