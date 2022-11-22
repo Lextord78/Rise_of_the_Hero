@@ -10,7 +10,19 @@ if hasSword
 }else{
 	canMove = true
 }
-
+if is_hurt
+{
+	x *= knockback_fr
+	y *= knockback_fr
+	if abs(x) < 1
+	{
+		is_hurt = false
+	}
+	if abs(y) < 1
+	{
+		is_hurt = false
+	}
+}else{
 if canMove{
 		if keyboard_check(ord("D"))
 		{
@@ -22,6 +34,7 @@ if canMove{
 			
 			x += spd
 		}
+		
 		if keyboard_check(ord("A"))
 		{
 			playerLeft = true
@@ -32,6 +45,7 @@ if canMove{
 			
 			x -= spd
 		}
+		
 		if keyboard_check(ord("S"))
 		{
 			playerDown = true
@@ -52,6 +66,7 @@ if canMove{
 			
 			y -= spd
 		}
+	}
 }
 if collision_circle(x,y,12,Obj_SwordPic,false,true){
 	
@@ -139,6 +154,13 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 	var nearEnemy = instance_nearest(x,y,Obj_enemy)
 	instance_destroy(nearEnemy)
 	currentHp -= 1.5 // Hero health
+	
+	if not is_hurt and place_meeting(x, y, Obj_enemy)
+	{
+		is_hurt = true
+		x = -x
+		y = -y
+	}
 }
 
 if currentHp <= 0{

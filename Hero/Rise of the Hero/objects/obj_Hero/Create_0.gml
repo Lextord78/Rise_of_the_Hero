@@ -26,7 +26,7 @@ arrows = 0
 
 currentHp = 5
 
-/*take_hit = 0
-hit_dir = 0*/
+is_hurt = false
+knockback_fr = .9
 
 init_health(10);
