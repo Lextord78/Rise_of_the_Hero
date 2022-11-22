@@ -10,7 +10,7 @@ if hasSword
 }else{
 	canMove = true
 }
-if is_hurt
+/*if is_hurt
 {
 	x *= knockback_fr
 	y *= knockback_fr
@@ -22,7 +22,7 @@ if is_hurt
 	{
 		is_hurt = false
 	}
-}else{
+}else{ */
 if canMove{
 		if keyboard_check(ord("D"))
 		{
@@ -67,7 +67,7 @@ if canMove{
 			y -= spd
 		}
 	}
-}
+//}
 if collision_circle(x,y,12,Obj_SwordPic,false,true){
 	
 	wSword = instance_nearest(x,y,Obj_SwordPic);
@@ -155,12 +155,12 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 	instance_destroy(nearEnemy)
 	currentHp -= 1.5 // Hero health
 	
-	if not is_hurt and place_meeting(x, y, Obj_enemy)
+	/*if not is_hurt and place_meeting(x, y, Obj_enemy)
 	{
 		is_hurt = true
 		x = -x
 		y = -y
-	}
+	} */
 }
 
 if currentHp <= 0{
