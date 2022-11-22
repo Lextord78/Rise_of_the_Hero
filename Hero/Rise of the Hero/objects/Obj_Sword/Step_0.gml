@@ -5,21 +5,25 @@ if fistTimer <= fistMin // cheack if fistTimer is less then or equeal to fistMIn
 		{
 			y_mod = -xy_mod 
 			uPressed = true
+			audio_play_sound(slash,0,false)
 		}
 		if keyboard_check_pressed(vk_down)
 		{
 			y_mod = xy_mod
 			dPressed = true
+			audio_play_sound(slash,0,false)
 		}
 		if keyboard_check_pressed(vk_right)
 		{
 			x_mod = xy_mod
 			rPressed = true
+			audio_play_sound(slash,0,false)
 		}
 		if keyboard_check_pressed(vk_left)
 		{
 			x_mod = -xy_mod
 			lPressed = true
+			audio_play_sound(slash,0,false)
 		}
 	}
 
