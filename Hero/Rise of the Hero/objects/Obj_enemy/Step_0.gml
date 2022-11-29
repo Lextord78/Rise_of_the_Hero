@@ -127,7 +127,7 @@ image_angle = direction
 
 //mp_potential_step(obj_Hero.x, obj_Hero.y, 2, false)
 
-if mode 2
+if mode = 2
 {
 	if kBStart = false
 	{
@@ -139,7 +139,7 @@ if mode 2
 	else{
 		lerpPos += (mode0spd * 6)
 		x = lerp(kBStartX, knockBackX, lerpPos);
-		y lerp(kBStartY, knockBackY, lerpPos);
+		y = lerp(kBStartY, knockBackY, lerpPos);
 	}
 	if lerpPos >= 1
 	{
