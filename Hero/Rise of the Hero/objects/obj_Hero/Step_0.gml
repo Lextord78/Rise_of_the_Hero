@@ -23,6 +23,13 @@ if hasSword
 		is_hurt = false
 	}
 }else{ */
+
+// collision check
+
+if place_meeting( x + canMove, y, Obj_L1BottomWall, Obj_L1SideWall, Obj_L1TopWall, Obj_L1Wall, Obj_L2BottomWall, Obj_L2SideWall, Obj_L2TopWall, Obj_L2Wall)
+{
+	canMove = 0
+}
 if canMove{
 		if keyboard_check(ord("D"))
 		{
