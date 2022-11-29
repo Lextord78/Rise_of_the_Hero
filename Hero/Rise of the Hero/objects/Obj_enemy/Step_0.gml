@@ -110,7 +110,7 @@ if firstTimeModeSwitch
 		}
 		
 		firstTimeModeSwitch = false;
-		
+	
 if collision_circle(x,y,20,Obj_Arrow,false, true)
 	{
 		currentHp -= 1
@@ -123,5 +123,8 @@ if collision_circle(x,y,20,Obj_Arrow,false, true)
 		{
 			instance_destroy(self)	
 		}
-		
+image_angle = direction
+
+mp_potential_step(obj_Hero.x, obj_Hero.y, 2, false)
+
 		
