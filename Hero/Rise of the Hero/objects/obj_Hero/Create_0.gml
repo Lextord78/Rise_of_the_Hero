@@ -29,4 +29,4 @@ currentHp = 5
 //is_hurt = false
 //knockback_fr = .9
 
-init_health(10);
+make_health(10);

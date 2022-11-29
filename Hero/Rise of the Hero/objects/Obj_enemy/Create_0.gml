@@ -26,4 +26,4 @@ lerpPos = 0;
 targerBuffer = 64
 randomTargetX = random_range(-targerBuffer, targerBuffer)
 randomTargetY = random_range(-targerBuffer, targerBuffer)
-init_health(10);
+make_health(10);
