@@ -10,26 +10,31 @@ if hasSword
 }else{
 	canMove = true
 }
-/*if is_hurt
-{
-	x *= knockback_fr
-	y *= knockback_fr
-	if abs(x) < 1
-	{
-		is_hurt = false
-	}
-	if abs(y) < 1
-	{
-		is_hurt = false
-	}
-}else{ */
 
 // collision check
 
-if place_meeting( x + canMove, y, Obj_L1BottomWall, Obj_L1SideWall, Obj_L1TopWall, Obj_L1Wall, Obj_L2BottomWall, Obj_L2SideWall, Obj_L2TopWall, Obj_L2Wall)
+/*if place_meeting(x, y, Obj_L1BottomWall)
 {
+  while !place_meeting(x + sign(canMove) , y, Obj_L1SideWall)
+  {
+	x += sign(canMove)
+  }
+	//if place_meeting(x + canMove, y, Obj_L1SideWall)
 	canMove = 0
-}
+	
+	if place_meeting(x + canMove, y, Obj_L1TopWall)
+	canMove = 0
+	if place_meeting(x + canMove, y, Obj_L1Wall)
+	canMove = 0
+	if place_meeting(x + canMove, y, Obj_L2BottomWall)
+	canMove = 0
+	if place_meeting(x + canMove, y, Obj_L2SideWall)
+	canMove = 0
+	if place_meeting(x + canMove, y, Obj_L2TopWall)
+	canMove = 0
+	if place_meeting(x + canMove , y , Obj_L2Wall)
+	canMove = 0 
+}*/
 if canMove{
 		if keyboard_check(ord("D"))
 		{
