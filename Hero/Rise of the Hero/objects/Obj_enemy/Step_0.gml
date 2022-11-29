@@ -125,6 +125,31 @@ if collision_circle(x,y,20,Obj_Arrow,false, true)
 		}
 image_angle = direction
 
-mp_potential_step(obj_Hero.x, obj_Hero.y, 2, false)
+//mp_potential_step(obj_Hero.x, obj_Hero.y, 2, false)
 
-		
+if mode 2
+{
+	if kBStart = false
+	{
+		kBStartX = x
+		kBStartY = y
+		kBStart = true
+		currentHp -= 3
+	}
+	else{
+		lerpPos += (mode0spd * 6)
+		x = lerp(kBStartX, knockBackX, lerpPos);
+		y lerp(kBStartY, knockBackY, lerpPos);
+	}
+	if lerpPos >= 1
+	{
+		kBStart = false
+		kBStartX = 0
+		kBStartY = 0
+		knockBackX = 0
+		knockBackY = 0
+		currentX = x
+		currentY = y
+		mode = 1
+	}
+}
