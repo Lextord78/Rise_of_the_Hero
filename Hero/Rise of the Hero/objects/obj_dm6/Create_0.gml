@@ -4,9 +4,9 @@
 currentDialogue = 0;
 
 dialogue = [
-	"Laguna - ' 'Am I approaching your room?' '"
-	"Unknown -' 'You mean our room. ' '"
-	"Laguna - ' '....' '"
+	"Laguna - ' 'Am I approaching your room?' '",
+	"Unknown -' 'You mean our room. ' '",
+	"Laguna - ' '....' '",
 	
 
 	
