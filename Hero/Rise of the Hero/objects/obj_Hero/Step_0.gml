@@ -11,30 +11,8 @@ if hasSword
 	canMove = true
 }
 
-// collision check
+// input
 
-/*if place_meeting(x, y, Obj_L1BottomWall)
-{
-  while !place_meeting(x + sign(canMove) , y, Obj_L1SideWall)
-  {
-	x += sign(canMove)
-  }
-	//if place_meeting(x + canMove, y, Obj_L1SideWall)
-	canMove = 0
-	
-	if place_meeting(x + canMove, y, Obj_L1TopWall)
-	canMove = 0
-	if place_meeting(x + canMove, y, Obj_L1Wall)
-	canMove = 0
-	if place_meeting(x + canMove, y, Obj_L2BottomWall)
-	canMove = 0
-	if place_meeting(x + canMove, y, Obj_L2SideWall)
-	canMove = 0
-	if place_meeting(x + canMove, y, Obj_L2TopWall)
-	canMove = 0
-	if place_meeting(x + canMove , y , Obj_L2Wall)
-	canMove = 0 
-}*/
 if canMove{
 		if keyboard_check(ord("D"))
 		{
@@ -75,11 +53,23 @@ if canMove{
 			playerDown = false
 			playerLeft = false
 			playerRight = false
-			
+			if !place_meeting(x, y - spd, Obj_L1Wall)
+			{	
 			y -= spd
+			}else{
+				while !place_meeting(x, y - 1, Obj_L1Wall)
+				{
+					y--
+				}
 		}
 	}
-//}
+}
+
+
+
+
+
+
 if collision_circle(x,y,12,Obj_SwordPic,false,true){
 	
 	wSword = instance_nearest(x,y,Obj_SwordPic);
@@ -129,6 +119,7 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 			arrowhspd = +arrowspd
 		}
 	}
+
 
 //Arrow shooting
 		//This will check if the player has the bow and arrow
@@ -184,5 +175,3 @@ if Obj_Manager.amountEnemy <= 0{
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
-
- 
