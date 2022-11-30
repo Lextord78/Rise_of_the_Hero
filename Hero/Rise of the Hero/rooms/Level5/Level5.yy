@@ -52,6 +52,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5168A971_4","properties":[],"isDnd":false,"objectId":{"name":"obj_Hero","path":"objects/obj_Hero/obj_Hero.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.5,"scaleY":4.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_86BF7D7","properties":[],"isDnd":false,"objectId":{"name":"Obj_L5ClosedDoor","path":"objects/Obj_L5ClosedDoor/Obj_L5ClosedDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":84.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634884D6","properties":[],"isDnd":false,"objectId":{"name":"Obj_Manager","path":"objects/Obj_Manager/Obj_Manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":800.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2AB3BCC1","properties":[],"isDnd":false,"objectId":{"name":"Obj_enemy","path":"objects/Obj_enemy/Obj_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":677.0,"y":286.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_4","spriteId":{"name":"L5Floor","path":"sprites/L5Floor/L5Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":48.0,},
@@ -208,6 +209,7 @@
     {"name":"inst_5168A971_4","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_86BF7D7","path":"rooms/Level5/Level5.yy",},
     {"name":"inst_634884D6","path":"rooms/Level5/Level5.yy",},
+    {"name":"inst_2AB3BCC1","path":"rooms/Level5/Level5.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
