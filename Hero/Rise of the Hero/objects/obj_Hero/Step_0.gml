@@ -21,8 +21,15 @@ if canMove{
 			playerUp = false
 			playerDown = false
 			playerLeft = false
-			
+			if !place_meeting(x + spd, y, Obj_L1Wall)
+			{
 			x += spd
+			}
+			else{
+				while !place_meeting(x + 1, y, Obj_L1Wall)
+				{
+					x++
+				}
 		}
 		
 		if keyboard_check(ord("A"))
@@ -32,8 +39,15 @@ if canMove{
 			playerUp = false
 			playerDown = false
 			playerRight = false
-			
+			if !place_meeting(x - spd, y, Obj_L1Wall)
+			{
 			x -= spd
+			}
+			else{
+				while !place_meeting(x - 1, y, Obj_L1Wall)
+				{
+					x--
+				}
 		}
 		
 		if keyboard_check(ord("S"))
