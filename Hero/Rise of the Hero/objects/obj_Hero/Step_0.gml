@@ -13,7 +13,8 @@ if hasSword
 
 // input
 
-if canMove{
+if canMove
+{
 		if keyboard_check(ord("D"))
 		{
 			playerRight = true
@@ -31,6 +32,8 @@ if canMove{
 					x++
 				}
 		}
+	}
+}
 		
 		if keyboard_check(ord("A"))
 		{
@@ -49,6 +52,7 @@ if canMove{
 					x--
 				}
 		}
+	}
 		
 		if keyboard_check(ord("S"))
 		{
@@ -62,6 +66,7 @@ if canMove{
 			{
 				y += spd
 			}
+		}
 		
 		else{
 			while !place_meeting(x, y + 1, Obj_L1Wall)
@@ -203,3 +208,4 @@ if Obj_Manager.amountEnemy <= 0
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
+		}
