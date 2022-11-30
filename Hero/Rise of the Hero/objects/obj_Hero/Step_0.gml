@@ -183,8 +183,9 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 if collision_circle(x,y,28,Obj_enemy,false,true)
 {
 	var nearEnemy = instance_nearest(x,y,Obj_enemy)
-	instance_destroy(nearEnemy)
-	currentHp -= 1.5 // Hero health
+		instance_destroy(nearEnemy)
+
+		//currentHp -= 1.5 // Hero health
 	
 	/*if not is_hurt and place_meeting(x, y, Obj_enemy)
 	{
@@ -195,7 +196,8 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 }
 
 if currentHp <= 0
-{
+{	
+	instance_destroy(Obj_Sword)
 	instance_destroy(self)
 }
 

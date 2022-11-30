@@ -1,6 +1,8 @@
 	x =	currentX;
 	y = currentY;
-heroDistance = distance_to_object(obj_Hero)
+if instance_exists(obj_Hero){	
+	heroDistance = distance_to_object(obj_Hero)
+}
 
 if firstTimeModeSwitch = false
 	{
@@ -43,31 +45,33 @@ if mode = 0
 		currentY = lerp(yEnd,yStart,lerpPos);
 	}
 // chases the player on the x axis	
-if mode = 1
-	{
-		if obj_Hero.x + randomTargetX > x
+if instance_exists(obj_Hero){
+	if mode = 1
 		{
-			currentX += mode1spd;
-		}
+			if obj_Hero.x + randomTargetX > x
+			{
+				currentX += mode1spd;
+			}
 		
-		if obj_Hero.x + randomTargetX < x
-		{
-			currentX -= mode1spd;
+			if obj_Hero.x + randomTargetX < x
+			{
+				currentX -= mode1spd;
+			}
 		}
-	}
-// chases the player on the y axis
-if mode = 1
-	{
-		if obj_Hero.y + randomTargetY > y
+	// chases the player on the y axis
+	if mode = 1
 		{
-			currentY += mode1spd + random_range(0,1) ; // speed of the enemy of positions
-		}
+			if obj_Hero.y + randomTargetY > y
+			{
+				currentY += mode1spd + random_range(0,1) ; // speed of the enemy of positions
+			}
 		
-		if obj_Hero.y + randomTargetY < y
-		{
-			currentY -= mode1spd;
+			if obj_Hero.y + randomTargetY < y
+			{
+				currentY -= mode1spd;
+			}
 		}
-	}
+}
 
 if firstTimeModeSwitch
 	{
@@ -129,30 +133,39 @@ image_angle = direction
 
 
 if !hasHit 
-{
-	if collision_circle(x,y,32,obj_Hero, false, true)
-	{
-		//hasHit = true
-	// = instance_nearest(x,y,Obj_enemy)
-	//hitEnemy.currentHp -= 3;
-		if obj_Hero.x > x{
-			knockBackX = x - knockBackAmount
-		}else{
-			knockBackX = x + knockBackAmount
-		}
-		
-		if obj_Hero.y > y
+{	
+	hasHit = true
+	//obj_Hero.currentHp -= 3
+	
+	instance_exists(obj_Hero)
+		if collision_circle(x,y,32,obj_Hero, false, true)
 		{
-			knockBackY = y - knockBackAmount
-		}else{
-			knockBackY = y + knockBackAmount
-		}
+			obj_Hero.currentHp -= 3
+			//hasHit = true
+		// = instance_nearest(x,y,Obj_enemy)
+		//hitEnemy.currentHp -= 3;
+			if obj_Hero.x > x{
+				knockBackX = x - knockBackAmount
+			}else{
+				knockBackX = x + knockBackAmount
+			}
 		
-		mode = 2
+			if obj_Hero.y > y
+			{
+				knockBackY = y - knockBackAmount
+			}else{
+				knockBackY = y + knockBackAmount
+			}
+		
+			mode = 2
+		
 
-	}else{
-		//hasHit = false
-	}
+		}else{
+			//hasHit = false
+		}
+}
+if !collision_circle(x,y,32,obj_Hero, false, true){
+	hasHit = false
 }
 
 
