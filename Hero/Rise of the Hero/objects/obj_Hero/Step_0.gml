@@ -44,8 +44,17 @@ if canMove{
 			playerLeft = false
 			playerRight = false
 			
-			y += spd
-		}
+			if !place_meeting(x, y + spd , Obj_L1Wall)
+			{
+				y += spd
+			}
+		
+		else{
+			while !place_meeting(x, y + 1, Obj_L1Wall)
+			{
+				y++
+			}
+		
 		if keyboard_check(ord("W"))
 		{
 			playerUp = true
@@ -63,7 +72,7 @@ if canMove{
 				}
 		}
 	}
-}
+
 
 
 
@@ -125,8 +134,10 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 		//This will check if the player has the bow and arrow
 		if hasBow = true
 		{
-			if arrows > 0{
-				if keyboard_check_pressed(vk_space){
+			if arrows > 0
+			{
+				if keyboard_check_pressed(vk_space)
+				{
 					audio_play_sound(snd_arrow,0,false)
 					instance_create_depth(x,y,0,Obj_Arrow)
 					var newarrow
@@ -166,12 +177,15 @@ if collision_circle(x,y,28,Obj_enemy,false,true)
 	} */
 }
 
-if currentHp <= 0{
+if currentHp <= 0
+{
 	instance_destroy(self)
 }
 
-if Obj_Manager.amountEnemy <= 0{
-	if collision_circle(x,y,30,Obj_DoorOpen,false,true){
+if Obj_Manager.amountEnemy <= 0
+{
+	if collision_circle(x,y,30,Obj_DoorOpen,false,true)
+	{
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
