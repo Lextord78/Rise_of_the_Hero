@@ -1,4 +1,4 @@
-
+ 
 if fistTimer <= fistMin // cheack if fistTimer is less then or equeal to fistMIn
 	{
 		if keyboard_check_pressed(vk_up)
