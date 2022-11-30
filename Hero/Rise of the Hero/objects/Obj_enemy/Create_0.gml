@@ -35,3 +35,6 @@ kBStartY = 0
 
 knockBackX = 0
 knockBackY = 0
+
+hasHit = false
+knockBackAmount = 64

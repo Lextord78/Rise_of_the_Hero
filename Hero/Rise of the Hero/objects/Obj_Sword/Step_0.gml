@@ -1,4 +1,7 @@
- 
+
+image_xscale = 2
+image_yscale = 2
+
 if fistTimer <= fistMin // cheack if fistTimer is less then or equeal to fistMIn
 	{
 		if keyboard_check_pressed(vk_up)
@@ -6,6 +9,7 @@ if fistTimer <= fistMin // cheack if fistTimer is less then or equeal to fistMIn
 			y_mod = -xy_mod 
 			uPressed = true
 			audio_play_sound(slash,0,false)
+			
 		}
 		if keyboard_check_pressed(vk_down)
 		{
@@ -55,20 +59,23 @@ if fistTimer >= fistTimerMax
 y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
 x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
 
-if !hasHit 
-{
-	if collision_circle(x,y,20,Obj_enemy, false, true)
+if  uPressed or dPressed or lPressed or rPressed {
+	if !hasHit 
 	{
-	hasHit = true
-	hitEnemy = instance_nearest(x,y,Obj_enemy)
-	//hitEnemy.currentHp -= 3;
-	hitEnemy.knockBackX = hitEnemy.x + x_mod
-	hitEnemy.knockBackY = hitEnemy.y + y_mod
-	hitEnemy.currentHp = 2
-	if hitEnemy.currentHp <= 0
-	{
-		instance_destroy(hitEnemy)
-	}
+		if collision_circle(x,y,20,Obj_enemy, false, true)
+		{
+		hasHit = true
+		hitEnemy = instance_nearest(x,y,Obj_enemy)
+		//hitEnemy.currentHp -= 3;
+		hitEnemy.knockBackX = hitEnemy.x + (x_mod*2)
+		hitEnemy.knockBackY = hitEnemy.y + (y_mod*2)
+		hitEnemy.mode = 2
+		hitEnemy.currentHp -= 3
+		if hitEnemy.currentHp <= 0
+		{
+			instance_destroy(hitEnemy)
+		}
+		}
 	}
 }
 

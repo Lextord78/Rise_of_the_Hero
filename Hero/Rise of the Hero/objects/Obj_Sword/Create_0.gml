@@ -17,3 +17,5 @@ uPressed = false; // chacking if it was presst
 dPressed = false; // chacking if it was presst
 lPressed = false;// chacking if it was presst
 rPressed = false; // chacking if it was presst
+
+swungSword = false

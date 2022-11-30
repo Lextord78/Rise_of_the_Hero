@@ -127,6 +127,35 @@ image_angle = direction
 
 //mp_potential_step(obj_Hero.x, obj_Hero.y, 2, false)
 
+
+if !hasHit 
+{
+	if collision_circle(x,y,32,obj_Hero, false, true)
+	{
+		//hasHit = true
+	// = instance_nearest(x,y,Obj_enemy)
+	//hitEnemy.currentHp -= 3;
+		if obj_Hero.x > x{
+			knockBackX = x - knockBackAmount
+		}else{
+			knockBackX = x + knockBackAmount
+		}
+		
+		if obj_Hero.y > y
+		{
+			knockBackY = y - knockBackAmount
+		}else{
+			knockBackY = y + knockBackAmount
+		}
+		
+		mode = 2
+
+	}else{
+		//hasHit = false
+	}
+}
+
+
 if mode = 2
 {
 	if kBStart = false
@@ -134,9 +163,8 @@ if mode = 2
 		kBStartX = x
 		kBStartY = y
 		kBStart = true
-		currentHp -= 3
-	}
-	else{
+		
+	}else{
 		lerpPos += (mode0spd * 6)
 		x = lerp(kBStartX, knockBackX, lerpPos);
 		y = lerp(kBStartY, knockBackY, lerpPos);
@@ -148,6 +176,7 @@ if mode = 2
 		kBStartY = 0
 		knockBackX = 0
 		knockBackY = 0
+		lerpPos = 0
 		currentX = x
 		currentY = y
 		mode = 1

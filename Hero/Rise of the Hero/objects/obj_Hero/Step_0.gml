@@ -24,16 +24,15 @@ if canMove
 			playerLeft = false
 			if !place_meeting(x + spd, y, Obj_L1Wall)
 			{
-			x += spd
+				x += spd
 			}
 			else{
 				while !place_meeting(x + 1, y, Obj_L1Wall)
 				{
 					x++
 				}
+			}
 		}
-	}
-}
 		
 		if keyboard_check(ord("A"))
 		{
@@ -51,8 +50,8 @@ if canMove
 				{
 					x--
 				}
+			}
 		}
-	}
 		
 		if keyboard_check(ord("S"))
 		{
@@ -65,14 +64,13 @@ if canMove
 			if !place_meeting(x, y + spd , Obj_L1Wall)
 			{
 				y += spd
+			}else{
+				while !place_meeting(x, y + 1, Obj_L1Wall)
+				{
+					y++
+				}
 			}
 		}
-		
-		else{
-			while !place_meeting(x, y + 1, Obj_L1Wall)
-			{
-				y++
-			}
 		
 		if keyboard_check(ord("W"))
 		{
@@ -83,14 +81,15 @@ if canMove
 			playerRight = false
 			if !place_meeting(x, y - spd, Obj_L1Wall)
 			{	
-			y -= spd
+				y -= spd
 			}else{
 				while !place_meeting(x, y - 1, Obj_L1Wall)
 				{
 					y--
 				}
+			}
 		}
-	}
+}
 
 
 
@@ -164,15 +163,14 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 					newarrow.hspd = arrowhspd
 					newarrow.vspd = arrowvspd
 					
-					
 					arrows -= 1
 				}
 			
 			}
 		}
 			//noBow = false player can not use arrow
-			if hasBow = false
-			{
+		if hasBow = false
+		{
 				//arrows = 0
 		}else{
 		//noArrow = false player can not use bow	
@@ -208,4 +206,4 @@ if Obj_Manager.amountEnemy <= 0
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
-		}
+		
