@@ -55,6 +55,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_21692786","properties":[],"isDnd":false,"objectId":{"name":"Obj_L4ClosedDoor","path":"objects/Obj_L4ClosedDoor/Obj_L4ClosedDoor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":90.0,"scaleX":5.0,"scaleY":5.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":84.0,"y":384.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B02780E","properties":[],"isDnd":false,"objectId":{"name":"Obj_L1Button","path":"objects/Obj_L1Button/Obj_L1Button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1104.0,"y":243.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_61ABF91A","properties":[],"isDnd":false,"objectId":{"name":"Obj_L1Button","path":"objects/Obj_L1Button/Obj_L1Button.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1096.0,"y":720.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_299E1E95","properties":[],"isDnd":false,"objectId":{"name":"obj_dm3","path":"objects/obj_dm3/obj_dm3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":608.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_3","spriteId":{"name":"L4Floor","path":"sprites/L4Floor/L4Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":48.0,},
@@ -237,6 +238,7 @@
     {"name":"inst_3B51E8B","path":"rooms/Level4/Level4.yy",},
     {"name":"inst_5B02780E","path":"rooms/Level4/Level4.yy",},
     {"name":"inst_61ABF91A","path":"rooms/Level4/Level4.yy",},
+    {"name":"inst_299E1E95","path":"rooms/Level4/Level4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
