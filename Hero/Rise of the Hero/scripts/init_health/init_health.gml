@@ -2,6 +2,6 @@
 function make_health(maxHealth)
 {
 
-maxHp = argument0;
+maxHp = maxHealth;
 currentHp = maxHp;
 }

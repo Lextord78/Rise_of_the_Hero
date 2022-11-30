@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-goToRoom = Level2B
+goToRoom = Level2
 
 
