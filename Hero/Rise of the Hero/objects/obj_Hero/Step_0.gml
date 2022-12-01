@@ -22,12 +22,13 @@ if canMove
 			playerUp = false
 			playerDown = false
 			playerLeft = false
-			if !place_meeting(x + spd, y, Obj_L1Wall)
+			if !place_meeting(x + spd, y, Obj_L1SideWall)
 			{
 				x += spd
+				
 			}
 			else{
-				while !place_meeting(x + 1, y, Obj_L1Wall)
+				while !place_meeting(x + 1, y, Obj_L1SideWall)
 				{
 					x++
 				}
@@ -41,12 +42,12 @@ if canMove
 			playerUp = false
 			playerDown = false
 			playerRight = false
-			if !place_meeting(x - spd, y, Obj_L1Wall)
+			if !place_meeting(x - spd, y, Obj_L1SideWall)
 			{
 			x -= spd
 			}
 			else{
-				while !place_meeting(x - 1, y, Obj_L1Wall)
+				while !place_meeting(x - 1, y, Obj_L1SideWall)
 				{
 					x--
 				}
@@ -61,11 +62,11 @@ if canMove
 			playerLeft = false
 			playerRight = false
 			
-			if !place_meeting(x, y + spd , Obj_L1Wall)
+			if !place_meeting(x, y + spd , Obj_L1TopWall)
 			{
 				y += spd
 			}else{
-				while !place_meeting(x, y + 1, Obj_L1Wall)
+				while !place_meeting(x, y + 1, Obj_L1TopWall)
 				{
 					y++
 				}
@@ -79,11 +80,11 @@ if canMove
 			playerDown = false
 			playerLeft = false
 			playerRight = false
-			if !place_meeting(x, y - spd, Obj_L1Wall)
+			if !place_meeting(x, y - spd, Obj_L1TopWall)
 			{	
 				y -= spd
 			}else{
-				while !place_meeting(x, y - 1, Obj_L1Wall)
+				while !place_meeting(x, y - 1, Obj_L1TopWall)
 				{
 					y--
 				}

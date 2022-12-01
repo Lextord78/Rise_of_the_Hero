@@ -6,7 +6,7 @@
     "name": "Player",
     "path": "sprites/Player/Player.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,

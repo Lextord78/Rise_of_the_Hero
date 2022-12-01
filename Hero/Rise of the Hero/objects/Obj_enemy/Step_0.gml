@@ -117,7 +117,7 @@ if firstTimeModeSwitch
 	
 if collision_circle(x,y,20,Obj_Arrow,false, true)
 	{
-		currentHp -= 1
+		currentHp -= 1.5
 		var dArrow = instance_nearest(x,y,Obj_Arrow)
 		
 		instance_destroy(dArrow)
