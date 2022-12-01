@@ -22,17 +22,17 @@ if canMove
 			playerUp = false
 			playerDown = false
 			playerLeft = false
-			if !place_meeting(x + spd, y, Obj_L1SideWall)
-			{
+			//if !place_meeting(x + spd, y, Obj_L1SideWall)
+			//{
 				x += spd
 				
-			}
-			else{
-				while !place_meeting(x + 1, y, Obj_L1SideWall)
-				{
-					x++
-				}
-			}
+			//}
+			//else{
+			//	while !place_meeting(x + 1, y, Obj_L1SideWall)
+			//	{
+			//		x++
+			//	}
+			//}
 		}
 		
 		if keyboard_check(ord("A"))
@@ -42,16 +42,16 @@ if canMove
 			playerUp = false
 			playerDown = false
 			playerRight = false
-			if !place_meeting(x - spd, y, Obj_L1SideWall)
-			{
+			//if !place_meeting(x - spd, y, Obj_L1SideWall)
+			//{
 			x -= spd
-			}
-			else{
-				while !place_meeting(x - 1, y, Obj_L1SideWall)
-				{
-					x--
-				}
-			}
+			//}
+			//else{
+			//	while !place_meeting(x - 1, y, Obj_L1SideWall)
+			//	{
+			//		x--
+			//	}
+			//}
 		}
 		
 		if keyboard_check(ord("S"))
@@ -62,15 +62,15 @@ if canMove
 			playerLeft = false
 			playerRight = false
 			
-			if !place_meeting(x, y + spd , Obj_L1TopWall)
-			{
-				y += spd
-			}else{
-				while !place_meeting(x, y + 1, Obj_L1TopWall)
-				{
-					y++
-				}
-			}
+			//if !place_meeting(x, y + spd , Obj_L1TopWall)
+			//{
+			y += spd
+			//}else{
+			//	while !place_meeting(x, y + 1, Obj_L1TopWall)
+			//	{
+			//		y++
+			//	}
+			//}
 		}
 		
 		if keyboard_check(ord("W"))
@@ -80,15 +80,15 @@ if canMove
 			playerDown = false
 			playerLeft = false
 			playerRight = false
-			if !place_meeting(x, y - spd, Obj_L1TopWall)
-			{	
-				y -= spd
-			}else{
-				while !place_meeting(x, y - 1, Obj_L1TopWall)
-				{
-					y--
-				}
-			}
+			//if !place_meeting(x, y - spd, Obj_L1TopWall)
+			//{	
+			y -= spd
+			//}else{
+			//	while !place_meeting(x, y - 1, Obj_L1TopWall)
+			//	{
+			//		y--
+			//	}
+			//}
 		}
 }
 
@@ -209,4 +209,17 @@ if Obj_Manager.amountEnemy <= 0
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
 }
-		
+
+if y <= 120{
+	y = 120
+}
+
+if x <= 40
+{
+	x = 40
+}
+
+if x >= 1321
+{
+	x = 1321
+}
