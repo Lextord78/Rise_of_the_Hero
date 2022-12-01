@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if rateFire <= fireMin
+/*if rateFire <= fireMin
 	{
 		if keyboard_check_pressed(vk_up)
 		{
@@ -48,7 +48,7 @@ if rateFire >= fireMax
 		rPressed = false
 		fistTimer = 0
 	}
-
+*/
 y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
 x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
 

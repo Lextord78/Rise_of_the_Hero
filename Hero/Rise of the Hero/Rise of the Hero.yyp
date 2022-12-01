@@ -61,6 +61,7 @@
     {"id":{"name":"Obj_L9OpenDoor","path":"objects/Obj_L9OpenDoor/Obj_L9OpenDoor.yy",},"order":70,},
     {"id":{"name":"Obj_L5ClosedDoor","path":"objects/Obj_L5ClosedDoor/Obj_L5ClosedDoor.yy",},"order":45,},
     {"id":{"name":"Obj_L1Button","path":"objects/Obj_L1Button/Obj_L1Button.yy",},"order":16,},
+    {"id":{"name":"Obj_Spawner","path":"objects/Obj_Spawner/Obj_Spawner.yy",},"order":81,},
     {"id":{"name":"L7Wall","path":"sprites/L7Wall/L7Wall.yy",},"order":57,},
     {"id":{"name":"L7Floor","path":"sprites/L7Floor/L7Floor.yy",},"order":60,},
     {"id":{"name":"Obj_eArcher","path":"objects/Obj_eArcher/Obj_eArcher.yy",},"order":9,},

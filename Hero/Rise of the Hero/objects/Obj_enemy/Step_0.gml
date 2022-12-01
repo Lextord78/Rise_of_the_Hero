@@ -1,3 +1,5 @@
+
+
 	x =	currentX;
 	y = currentY;
 if instance_exists(obj_Hero){	
@@ -115,7 +117,7 @@ if firstTimeModeSwitch
 		
 		firstTimeModeSwitch = false;
 	
-if collision_circle(x,y,20,Obj_Arrow,false, true)
+if collision_circle(x,y,60,Obj_Arrow,false, true)
 	{
 		currentHp -= 1.5
 		var dArrow = instance_nearest(x,y,Obj_Arrow)

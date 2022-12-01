@@ -1,3 +1,6 @@
+image_xscale = 4.5
+image_yscale = 4.5
+
 /// @description Constructor
 
 xStart = x;
