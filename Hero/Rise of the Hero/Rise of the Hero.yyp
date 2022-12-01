@@ -5,7 +5,6 @@
   "resources": [
     {"id":{"name":"L8OpenDoor","path":"sprites/L8OpenDoor/L8OpenDoor.yy",},"order":68,},
     {"id":{"name":"L7SideWall","path":"sprites/L7SideWall/L7SideWall.yy",},"order":62,},
-    {"id":{"name":"Script3","path":"scripts/Script3/Script3.yy",},"order":2,},
     {"id":{"name":"L8BottomWall","path":"sprites/L8BottomWall/L8BottomWall.yy",},"order":65,},
     {"id":{"name":"L4Floor","path":"sprites/L4Floor/L4Floor.yy",},"order":39,},
     {"id":{"name":"Obj_L3BottomWall","path":"objects/Obj_L3BottomWall/Obj_L3BottomWall.yy",},"order":34,},
