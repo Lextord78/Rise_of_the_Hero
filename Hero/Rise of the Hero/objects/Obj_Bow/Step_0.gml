@@ -54,6 +54,7 @@ x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword
 
 if collision_circle(x,y,20,Obj_enemy,false,true)
 {
+	audio_play_sound(bowandarrow, 0, false)
 	giveDamge = giveDamge - init_health();
 	if (init_health() <= 0)
 	{
