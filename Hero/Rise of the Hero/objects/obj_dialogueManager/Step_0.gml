@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if keyboard_check_pressed(vk_space){
+if keyboard_check_pressed(vk_enter){
     currentDialogue += 1
 }
 
