@@ -220,9 +220,9 @@ if Obj_Manager.amountEnemy <= 0
 if y <= 142{ // Y-axis wall up
 	y = 142
 }
-if y >= 753 // Y-axis wall down
+if y >= 745 // Y-axis wall down
 {
-	y = 753
+	y = 745
 }
 
 if x <= 40 // X-axis wall left
