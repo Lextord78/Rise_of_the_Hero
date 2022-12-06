@@ -7,4 +7,13 @@ if collision_circle(x,y,12,Obj_Sword, false, true)
 if collision_circle(x,y,12,Obj_Arrow, false, true)
 {
 	instance_destroy(Obj_L1Button)
+	
+		if collision_circle(x,y,60,Obj_Arrow,false, true)
+		{	
+		
+			var dArrow = instance_nearest(x,y,Obj_Arrow)
+		
+			instance_destroy(dArrow)
+		}	
+	
 }
