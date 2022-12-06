@@ -4,6 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
+	"(Press Enter to start Dialogue Chain)",
 	"Laguna - ' 'STEEL!' '",
 	"Laguna - ' 'Where is he, STEEL! Its me Laguna' '", 
 	"Inverse Laaguna - ' 'But is it you?' '",

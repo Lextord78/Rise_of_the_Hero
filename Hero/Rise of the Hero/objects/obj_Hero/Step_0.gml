@@ -208,10 +208,21 @@ if Obj_Manager.amountEnemy <= 0
 	{
 		room_goto(Obj_DoorOpen.goToRoom)
 	}
+		if Obj_Manager.amountButton <= 0
+		{
+			if collision_circle(x,y,30,Obj_DoorOpen, false, true)
+			{
+				room_goto(Obj_DoorOpen.goToRoom)
+			}
+		}
 }
 
-if y <= 120{ // Y-axis wall
-	y = 120
+if y <= 142{ // Y-axis wall up
+	y = 142
+}
+if y >= 750 // Y-axis wall down
+{
+	y = 750
 }
 
 if x <= 40 // X-axis wall left

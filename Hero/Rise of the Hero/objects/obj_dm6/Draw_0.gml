@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_text(100, 700, dialogue[currentDialogue] )
+draw_text(530, 100, dialogue[currentDialogue] )
 

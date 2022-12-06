@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_DoorClosed",
+    "path": "objects/Obj_DoorClosed/Obj_DoorClosed.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

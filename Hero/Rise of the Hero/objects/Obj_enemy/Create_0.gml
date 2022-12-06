@@ -41,3 +41,21 @@ knockBackY = 0
 
 hasHit = false
 knockBackAmount = 64
+
+if y <= 142{ // Y-axis wall up
+	y = 142
+}
+if y >= 750 // Y-axis wall down
+{
+	y = 750
+}
+
+if x <= 40 // X-axis wall left
+{
+	x = 40
+}
+
+if x >= 1321 // x-axis wall right
+{
+	x = 1321
+}
