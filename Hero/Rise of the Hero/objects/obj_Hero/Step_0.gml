@@ -217,8 +217,8 @@ if Obj_Manager.amountEnemy <= 0
 		}
 }
 
-if y <= 120{ // Y-axis wall
-	y = 120
+if y <= 142{ // Y-axis wall
+	y = 142
 }
 
 if x <= 40 // X-axis wall left
