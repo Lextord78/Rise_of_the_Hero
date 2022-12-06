@@ -1,5 +1,7 @@
-if object_exists(Obj_enemy){
+if object_exists(Obj_enemy)
+{
 	amountEnemy = instance_number(Obj_enemy)
+	
 }
 
 if object_exists(Obj_L1Button)
