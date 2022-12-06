@@ -46,7 +46,7 @@ if mode = 0
 		kBStart = true
 		
 	}else{
-		
+		lerpPos *= 6
 		x = lerp(kBStartX, knockBackX, lerpPos);
 		y = lerp(kBStartY, knockBackY, lerpPos);
 	}
