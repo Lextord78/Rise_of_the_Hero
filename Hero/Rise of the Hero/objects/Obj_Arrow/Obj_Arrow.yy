@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_Arrow",
   "spriteId": {
-    "name": "Spr_Arrow",
-    "path": "sprites/Spr_Arrow/Spr_Arrow.yy",
+    "name": "Arrow",
+    "path": "sprites/Arrow/Arrow.yy",
   },
   "solid": false,
   "visible": true,

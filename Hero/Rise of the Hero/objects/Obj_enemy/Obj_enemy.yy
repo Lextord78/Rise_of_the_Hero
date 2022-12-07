@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_enemy",
   "spriteId": {
-    "name": "EvilLaguna",
-    "path": "sprites/EvilLaguna/EvilLaguna.yy",
+    "name": "Slime",
+    "path": "sprites/Slime/Slime.yy",
   },
   "solid": true,
   "visible": true,

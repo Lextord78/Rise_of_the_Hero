@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Obj_BowPic",
   "spriteId": {
-    "name": "Spr_Bow",
-    "path": "sprites/Spr_Bow/Spr_Bow.yy",
+    "name": "Bow",
+    "path": "sprites/Bow/Bow.yy",
   },
   "solid": false,
   "visible": true,
