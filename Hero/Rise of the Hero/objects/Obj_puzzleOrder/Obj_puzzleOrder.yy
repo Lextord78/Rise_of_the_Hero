@@ -1,12 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_L7BottomWall",
-  "spriteId": {
-    "name": "L7BottomWall",
-    "path": "sprites/L7BottomWall/L7BottomWall.yy",
-  },
-  "solid": true,
+  "name": "Obj_puzzleOrder",
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
@@ -28,7 +25,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "DungonWall",
-    "path": "folders/Objects/DungonWall.yy",
+    "name": "Obj_folder",
+    "path": "folders/Objects/Obj_folder.yy",
   },
 }

@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "DungonWall",
+    "path": "folders/Objects/DungonWall.yy",
   },
 }

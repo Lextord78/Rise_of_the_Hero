@@ -35,7 +35,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dungen_door",
+    "path": "folders/Objects/Dungen_door.yy",
   },
 }
