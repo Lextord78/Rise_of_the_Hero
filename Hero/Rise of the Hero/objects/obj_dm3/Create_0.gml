@@ -1,4 +1,4 @@
- /// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
 
 currentDialogue = 0;
@@ -11,7 +11,7 @@ dialogue = [
 	"Laguna - ' 'What did you say? ' '",
 	"Unknown - ' 'Steel, isn't that the person you are trying to 'rescue'. ' '",
 	"Laguna - ' 'If you laid a finger on him, so help me I will-. ' ' ",
-	"Unknown - ' 'Woo chill I just wanted to see you riled up... I kinda like it, reminds me of... well me. ' '"
-	"Laguna - ' 'We are nothing alike' '",
-	"Unknown - ' 'We will see' '",
+	"Unknown - ' 'Woo chill, I just wanted to see you riled up... I kinda like it, reminds me of... well me. ' '",
+	"Laguna - ' 'We are nothing alike!' '",
+	"Unknown - ' 'We will see...' '",
     ];
