@@ -6,9 +6,10 @@
 mode = 0
 
 placement = 0
+buttonAmount = 0
+resetPuzzle = false
 
 buttons = [
-	0,
 	0,
 	0,
 	0,
@@ -22,3 +23,4 @@ solution1 = [
 	4,
 	5]
 
+celebration = "You haven't beaten the puzzle"
