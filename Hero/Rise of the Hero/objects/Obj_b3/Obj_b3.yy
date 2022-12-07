@@ -1,14 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obje_puzzleManager",
-  "spriteId": null,
-  "solid": false,
+  "name": "Obj_b3",
+  "spriteId": {
+    "name": "L1Button",
+    "path": "sprites/L1Button/L1Button.yy",
+  },
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_button",
+    "path": "objects/Obj_button/Obj_button.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,11 +29,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Obj_folder",
-    "path": "folders/Objects/Obj_folder.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
 }

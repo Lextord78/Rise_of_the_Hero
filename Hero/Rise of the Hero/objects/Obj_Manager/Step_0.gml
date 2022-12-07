@@ -4,9 +4,9 @@
 	
 }
 
-if object_exists(Obj_L1Button)
+if object_exists(Obj_button)
 {
-	amountButton = instance_number(Obj_L1Button)
+	amountButton = instance_number(Obj_button)
 }
 
 if keyboard_check_pressed(ord("L")){

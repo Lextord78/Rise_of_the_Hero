@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_bFl",
+  "name": "Obj_b1",
   "spriteId": {
     "name": "L1Button",
     "path": "sprites/L1Button/L1Button.yy",
@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_button",
+    "path": "objects/Obj_button/Obj_button.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +34,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dungon_object",
-    "path": "folders/Objects/Dungon_object.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
 }
