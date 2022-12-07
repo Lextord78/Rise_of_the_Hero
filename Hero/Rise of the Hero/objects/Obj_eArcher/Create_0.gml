@@ -31,4 +31,4 @@ arrowspd = 3
 
 can_shoot = 0
 
-init_health(10);
+make_health(10);
