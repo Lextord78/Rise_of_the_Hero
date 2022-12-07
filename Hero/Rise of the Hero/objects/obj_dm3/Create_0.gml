@@ -9,6 +9,9 @@ dialogue = [
 	"Laguna - ' 'What am I supposed to do with you talking to me, leave me alone. ' '",
 	"Unknown - ' 'How rude, don't you want to know what happened to Steel? ' '",
 	"Laguna - ' 'What did you say? ' '",
-	
-
+	"Unknown - ' 'Steel, isn't that the person you are trying to 'rescue'. ' '",
+	"Laguna - ' 'If you laid a finger on him, so help me I will-. ' ' ",
+	"Unknown - ' 'Woo chill I just wanted to see you riled up... I kinda like it, reminds me of... well me. ' '"
+	"Laguna - ' 'We are nothing alike' '",
+	"Unknown - ' 'We will see' '",
     ];

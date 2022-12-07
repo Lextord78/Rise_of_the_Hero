@@ -10,6 +10,6 @@ dialogue = [
     "Laguna - ' 'I will save Steel. ' '",
 	"Unknown - ' 'Oh you will, will you? I would like to see you try. ' '",
 	"Laguna - ' '(Something heard me speak, I gotta be careful). ' '",
-	"Unknown - ' 'Your mind will not save you, I can see into it. ' '",
+	"Unknown - ' 'Your mind will not save you, I AM INSIDE IT. ' '",
 	"Laguna - ' 'No... ' '",
     ];

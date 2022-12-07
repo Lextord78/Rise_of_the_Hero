@@ -10,6 +10,7 @@ dialogue = [
 	"Laguna - ' '(Yeah watch me die). ' ' ",
 	"Unkown - ' 'I never said that did I.' ' ",
 	"Laguna - ' 'Shit I forgot, my mind is not safe' ' ",
-
+	"Unkown - ' 'Who said it's not safe, I sure didn't' ' ",
+	"Laguna - ' 'Leave me alone!' ' ",
     ];
 
