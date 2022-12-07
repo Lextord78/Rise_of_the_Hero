@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_L1Button",
+  "name": "Obj_bL",
   "spriteId": {
     "name": "L1Button",
     "path": "sprites/L1Button/L1Button.yy",
