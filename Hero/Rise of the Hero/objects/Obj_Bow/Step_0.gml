@@ -49,6 +49,8 @@ if rateFire >= fireMax
 		fistTimer = 0
 	}
 */
+image_xscale = 2
+image_yscale = 2
 y = obj_Hero.y + y_mod // has the location of the hero and addes it to the sword y cord
 x = obj_Hero.x + x_mod // has the location of the hero and addes it to the sword x cord
 

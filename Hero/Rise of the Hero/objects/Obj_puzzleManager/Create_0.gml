@@ -24,3 +24,5 @@ solution1 = [
 	5]
 
 celebration = "You haven't beaten the puzzle"
+
+completed = false

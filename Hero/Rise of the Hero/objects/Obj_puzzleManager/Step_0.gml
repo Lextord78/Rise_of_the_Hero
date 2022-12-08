@@ -8,8 +8,14 @@ buttonAmount = instance_number(Obj_button)
 //	}
 //}
 
-if array_equals(buttons, solution1){
-	celebration = "You Win!"
+if completed = false{
+	if array_equals(buttons, solution1){
+		celebration = "Next Room!"
+		//instance_destroy()
+		instance_create_depth(1286,384,0,Obj_L3OpenDoor)
+		completed = true
+	}
+	
 }
 
 if !array_equals(buttons, solution1){
@@ -28,4 +34,6 @@ if resetPuzzle = true{
 	for (var i = 0; i < buttonAmount; i += 1){
 		buttons[i] = 0
 	}
+		placement = 0
+		resetPuzzle = false
 }
