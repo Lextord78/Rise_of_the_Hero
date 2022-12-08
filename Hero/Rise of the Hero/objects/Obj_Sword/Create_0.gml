@@ -10,6 +10,8 @@ hasHit = false
 
 y_mod = 1; // locations
 x_mod = 1; // locations
+
+
 mode1spd = 1;
 mode0spd = 0;
 
