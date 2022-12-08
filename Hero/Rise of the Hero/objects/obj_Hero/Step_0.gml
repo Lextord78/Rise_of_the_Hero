@@ -25,7 +25,7 @@ if canMove
 			playerLeft = false
 			//if !place_meeting(x + spd, y, Obj_L1SideWall)
 			//{
-				x += spd;
+				x += spd; 
 				image_speed = spd / 3;
 				sprite_index = Spr_WalkRight;
 				
