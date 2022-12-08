@@ -17,6 +17,7 @@ if canMove
 {
 		if keyboard_check(ord("D"))
 		{
+			
 			playerRight = true
 			
 			playerUp = false
@@ -24,7 +25,9 @@ if canMove
 			playerLeft = false
 			//if !place_meeting(x + spd, y, Obj_L1SideWall)
 			//{
-				x += spd
+				x += spd;
+				image_speed = spd / 3;
+				sprite_index = Spr_WalkRight;
 				
 			//}
 			//else{
@@ -37,6 +40,8 @@ if canMove
 		
 		if keyboard_check(ord("A"))
 		{
+			
+			
 			playerLeft = true
 			
 			playerUp = false
@@ -44,7 +49,9 @@ if canMove
 			playerRight = false
 			//if !place_meeting(x - spd, y, Obj_L1SideWall)
 			//{
-			x -= spd
+			x -= spd;
+			image_speed = spd / 3;
+			sprite_index = Spr_WalkLeft;
 			//}
 			//else{
 			//	while !place_meeting(x - 1, y, Obj_L1SideWall)
@@ -56,6 +63,8 @@ if canMove
 		
 		if keyboard_check(ord("S"))
 		{
+			
+			
 			playerDown = true
 			
 			playerUp = false
@@ -64,7 +73,9 @@ if canMove
 			
 			//if !place_meeting(x, y + spd , Obj_L1TopWall)
 			//{
-			y += spd
+			y += spd;
+			image_speed = spd / 3;
+			sprite_index = Spr_WalkDown;
 			//}else{
 			//	while !place_meeting(x, y + 1, Obj_L1TopWall)
 			//	{
@@ -75,6 +86,8 @@ if canMove
 		
 		if keyboard_check(ord("W"))
 		{
+			
+			
 			playerUp = true
 			
 			playerDown = false
@@ -82,7 +95,9 @@ if canMove
 			playerRight = false
 			//if !place_meeting(x, y - spd, Obj_L1TopWall)
 			//{	
-			y -= spd
+			y -= spd;
+		 	image_speed = spd / 3;
+			sprite_index = Spr_WalkUp;
 			//}else{
 			//	while !place_meeting(x, y - 1, Obj_L1TopWall)
 			//	{
@@ -234,3 +249,4 @@ if x >= 1321 // x-axis wall right
 {
 	x = 1321
 }
+
