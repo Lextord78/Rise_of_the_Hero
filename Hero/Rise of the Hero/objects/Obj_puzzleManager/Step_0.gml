@@ -21,7 +21,7 @@ if completed = false{
 if !array_equals(buttons, solution1){
 	if placement >= buttonAmount{		
 		celebration = "Look at the circles!"
-		resetPuzzle = true
+		resetTimer = resetTimerMax
 	}
 
 }
@@ -30,10 +30,17 @@ if !array_equals(buttons, solution1){
 //		celebration = "You Suck at video games!"
 //}
 
-if resetPuzzle = true{
-	for (var i = 0; i < buttonAmount; i += 1){
-		buttons[i] = 0
+//if Obj_Sword.fistTimer <=0{
+	if resetTimer > 0{
+		for (var i = 0; i < buttonAmount; i += 1){
+			buttons[i] = 0
+			placement = 0
+			Obj_button.on = false
+		}
+		resetTimer -= 1
 	}
-		placement = 0
-		resetPuzzle = false
+//}
+
+if placement = 0 {
+	resetPuzzle = false
 }

@@ -9,6 +9,9 @@ placement = 0
 buttonAmount = 0
 resetPuzzle = false
 
+resetTimer = 0
+resetTimerMax = 100
+
 buttons = [
 	0,
 	0,

@@ -9,6 +9,8 @@ if !on{
 		Obj_puzzleManager.placement += 1
 		
 	}
+	
+	
 	if collision_circle(x,y,12,Obj_Arrow, false, true)
 	{
 		//instance_destroy(Obj_button)
@@ -25,6 +27,12 @@ if !on{
 			}	
 	
 	}
+}
+
+if on{
+	image_alpha = 0
+}else{
+	image_alpha = 1
 }
 
 
