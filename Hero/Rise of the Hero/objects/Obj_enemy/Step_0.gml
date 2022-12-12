@@ -142,7 +142,7 @@ if !hasHit
 	instance_exists(obj_Hero)
 		if collision_circle(x,y,32,obj_Hero, false, true)
 		{
-			obj_Hero.currentHp -= 3
+			obj_Hero.currentHp -= 1.5 // hero health take away
 			//hasHit = true
 		// = instance_nearest(x,y,Obj_enemy)
 		//hitEnemy.currentHp -= 3;
