@@ -215,6 +215,7 @@ if currentHp <= 0
 {	
 	instance_destroy(Obj_Sword)
 	instance_destroy(self)
+	room_restart()
 }
 
 if Obj_Manager.amountEnemy <= 0
