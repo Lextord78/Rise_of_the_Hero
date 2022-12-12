@@ -63,7 +63,7 @@ if instance_exists(obj_Hero){
 		{
 			if obj_Hero.y + randomTargetY > y
 			{
-				currentY += mode1spd + random_range(0,1) ; // speed of the enemy of positions
+				currentY += mode1spd + random_range(0,6) ; // speed of the enemy of positions
 			}
 		
 			if obj_Hero.y + randomTargetY < y
@@ -178,7 +178,7 @@ if mode = 2
 		kBStart = true
 		
 	}else{
-		lerpPos += (mode0spd * 6)
+		lerpPos += (mode0spd * 10)
 		x = lerp(kBStartX, knockBackX, lerpPos);
 		y = lerp(kBStartY, knockBackY, lerpPos);
 	}
