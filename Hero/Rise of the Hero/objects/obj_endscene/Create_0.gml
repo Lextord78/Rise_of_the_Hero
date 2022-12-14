@@ -8,7 +8,7 @@ dialogue = [
 	"Laguna- ' 'STEEL... Steel?' '",
 	"Laguna- ' 'Other me... where is anyone?' '",
 	"Laguna- ' 'What was I doing...?' '",
-	"Laguna- ' 'O yeah, Steel, I have to save Steel, he can lead me to my mother.' '",
+	"Laguna- ' 'Oh yeah, Steel, I have to save Steel, he can lead me to my mother.' '",
 	"End",
 	
 

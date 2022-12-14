@@ -10,7 +10,7 @@ dialogue = [
 	"Laguna - ' 'That does not answer my question.' '",
 	"Unknown -' 'But if I tell you that will ruin all the fun we are having. ' '",
 	"Laguna -' 'This is not fun. ' '",
-	"Unknown-' 'Steel thinks this is fun, right. ' '",
+	"Unknown-' 'Steel thinks this is fun. Right, Steel? ' '",
 	"Steel- ' 'Oh... yes... this is a lot of fun. ' '",
 	"Laguna- ' 'What are you doing to him? ' '",
 	"Unknown- ' 'Come and find out.' '",

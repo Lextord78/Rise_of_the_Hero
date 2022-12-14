@@ -6,11 +6,11 @@ currentDialogue = 0;
 dialogue = [
 	"(Keep pressing Enter to show the story)",
 	"Laguna - ' 'STEEL!' '",
-	"Laguna - ' 'Where is he, STEEL! Its me Laguna' '", 
+	"Laguna - ' 'Where is he, STEEL! It's me, Laguna!' '", 
 	"Inverse Laguna - ' 'But is it you?' '",
-	"Laguna - ' ' Who are you... wait its me? ' '",
-	"Inverse Laguna - ' 'Ive always been you, im your mind.' '",
-	"Laguna- ' 'What? Get out of my head. ' '",
+	"Laguna - ' ' Who are you... wait it's me? ' '",
+	"Inverse Laguna - ' 'I've always been you, I'm your mind.' '",
+	"Laguna- ' 'What?! Get out of my head! ' '",
 	"Inverse Laguna - ' 'Make me.' '",
 	
 
