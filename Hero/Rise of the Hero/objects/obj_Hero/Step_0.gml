@@ -13,6 +13,12 @@ if hasSword
 
 // input
 
+
+//if keyboard_check_pressed(ord("D")){
+//	sprite_index = Spr_WalkRight;
+//}
+
+
 if canMove
 {
 		if keyboard_check(ord("D"))
@@ -107,6 +113,18 @@ if canMove
 		}
 }
 
+image_speed = 1.1
+
+if !keyboard_check(ord("D")){
+	if !keyboard_check(ord("W")){
+		if !keyboard_check(ord("S")){
+			if !keyboard_check(ord("A")){
+					//image_index = 0;
+					image_speed = 0
+			} 
+		}		
+	}
+}
 
 
 
@@ -135,14 +153,14 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 	{
 		if playerUp = true
 		{
-			image_index = 0
+			//image_index = 0
 			arrowvspd = -arrowspd
 			arrowhspd = 0
 			
 		}
 		if playerDown = true
 		{
-			image_index = 1
+			//image_index = 1
 			arrowvspd = +arrowspd
 			arrowhspd = 0
 			
@@ -150,14 +168,14 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 		}
 		if playerLeft = true
 		{
-			image_index = 2 // v = y h = x
+			//image_index = 2 // v = y h = x
 			arrowvspd = 0
 			arrowhspd = -arrowspd
 			
 		}
 		if playerRight = true
 		{
-			image_index = 3
+			//image_index = 3
 			arrowvspd = 0
 			arrowhspd = +arrowspd
 		}
