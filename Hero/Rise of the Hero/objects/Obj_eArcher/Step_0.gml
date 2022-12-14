@@ -1,3 +1,6 @@
+//image_xscale
+//image
+
 if can_shoot = 0 {
 	rateFire += 1;
 	if rateFire >= 1 /* room_speed*/ {
