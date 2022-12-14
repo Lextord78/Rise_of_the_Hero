@@ -25,6 +25,10 @@ solution1 = [
 	3,
 	4,
 	5]
+	
+solution2 = [
+	1,
+	2]
 
 celebration = "You haven't beaten the puzzle"
 

@@ -15,14 +15,22 @@ if completed = false{
 		instance_create_depth(1286,384,0,Obj_L3OpenDoor)
 		completed = true
 	}
+		
 	
-		if array_equals(buttons, solution1)
-		{
-			celebration = "Next Room!"
-			instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
-			completed = true
+			if array_equals(buttons, solution1)
+			{
+				celebration = "Next Room!"
+				instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
+				completed = true
 			
-		}
+			}
+		
+				if array_equals(buttons, solution2)
+				{
+					celebration = "Next Room!"
+					instance_create_depth(1284, 384, 0,Obj_L4OpenDoor)
+					completed = true
+				}
 	
 }
 
@@ -32,6 +40,15 @@ if !array_equals(buttons, solution1){
 		resetTimer = resetTimerMax
 	}
 
+}
+
+if !array_equals(buttons, solution2)
+{
+	if placement >= buttonAmount
+		{
+			celebration = "Try Again"
+			resetTimer = resetTimerMax
+		}
 }
 
 //if buttons[0] != solution1[0]{
