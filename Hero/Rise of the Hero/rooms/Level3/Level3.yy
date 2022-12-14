@@ -57,6 +57,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D1AC40A","properties":[],"isDnd":false,"objectId":{"name":"Obj_b4","path":"objects/Obj_b4/Obj_b4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_69756124","properties":[],"isDnd":false,"objectId":{"name":"Obj_b5","path":"objects/Obj_b5/Obj_b5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1524F71E","properties":[],"isDnd":false,"objectId":{"name":"Obj_SwordPic","path":"objects/Obj_SwordPic/Obj_SwordPic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":224.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_385847E6","properties":[],"isDnd":false,"objectId":{"name":"Obj_dm8","path":"objects/Obj_dm8/Obj_dm8.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":96.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_2","spriteId":{"name":"L3Floor","path":"sprites/L3Floor/L3Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":60.0,"y":48.0,},
@@ -223,6 +224,7 @@
     {"name":"inst_2D1AC40A","path":"rooms/Level3/Level3.yy",},
     {"name":"inst_69756124","path":"rooms/Level3/Level3.yy",},
     {"name":"inst_1524F71E","path":"rooms/Level3/Level3.yy",},
+    {"name":"inst_385847E6","path":"rooms/Level3/Level3.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

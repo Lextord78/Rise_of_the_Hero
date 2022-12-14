@@ -7,7 +7,9 @@ dialogue = [
 	"(Keep pressing enter to show the story)",
 	"Laguna- ' 'STEEL... Steel?' '",
 	"Laguna- ' 'Other me... where is anyone?' '",
-	"Laguna- ' 'A door, maybe this will lead me to Steel?' '",
+	"Laguna- ' 'What was I doing...?' '",
+	"Laguna- ' 'O yeah, Steel, I have to save Steel, he can lead me to my mother.' '",
+	"End",
 	
 
 	

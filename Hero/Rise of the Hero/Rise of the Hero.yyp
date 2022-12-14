@@ -54,6 +54,7 @@
     {"id":{"name":"L5BottomWall","path":"sprites/L5BottomWall/L5BottomWall.yy",},"order":45,},
     {"id":{"name":"TwoDots","path":"sprites/TwoDots/TwoDots.yy",},"order":17,},
     {"id":{"name":"icecavern","path":"sounds/icecavern/icecavern.yy",},"order":4,},
+    {"id":{"name":"Obj_dm8","path":"objects/Obj_dm8/Obj_dm8.yy",},"order":14,},
     {"id":{"name":"L4ClosedDoor","path":"sprites/L4ClosedDoor/L4ClosedDoor.yy",},"order":38,},
     {"id":{"name":"Level9","path":"rooms/Level9/Level9.yy",},"order":9,},
     {"id":{"name":"L5ClosedDoor","path":"sprites/L5ClosedDoor/L5ClosedDoor.yy",},"order":46,},
