@@ -58,11 +58,21 @@ if collision_circle(x,y,20,Obj_enemy,false,true)
 {
 	audio_play_sound(bowandarrow, 0, false)
 	giveDamge = giveDamge - init_health();
-	if (init_health() <= 0)
-	{
-		instance_destroy(Obj_enemy);
-	}
+	//if (init_health() <= 0)
+	//{
+	//	instance_destroy(Obj_enemy);
+	//}
 
+		if collision_circle(x,y,20, Obj_eArcher,false,true)
+		{
+			audio_play_sound(bowandarrow, 0, false)
+			giveDamge = giveDamge - init_health();
+			
+				if (init_health() <= 0)
+				{
+					instance_destroy(Obj_enemy);
+				}
+		}
 }
 	/*rateFire = 0;
 	instance_create_depth(x,y,0,Obj_Arrow); */
