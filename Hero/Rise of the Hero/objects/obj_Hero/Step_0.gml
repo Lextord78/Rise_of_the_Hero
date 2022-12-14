@@ -127,7 +127,7 @@ if collision_circle(x,y,12,Obj_BowPic,false,true)
 		wBow = instance_nearest(x,y,Obj_BowPic);
 		instance_destroy(wBow);
 		hasBow = true;
-		arrows += 20
+		arrows += 50
 		instance_create_depth(x,y,0,Obj_Bow);
 	}
 	
