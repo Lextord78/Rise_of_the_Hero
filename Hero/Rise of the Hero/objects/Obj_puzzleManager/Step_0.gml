@@ -16,6 +16,14 @@ if completed = false{
 		completed = true
 	}
 	
+		if array_equals(buttons, solution1)
+		{
+			celebration = "Next Room!"
+			instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
+			completed = true
+			
+		}
+	
 }
 
 if !array_equals(buttons, solution1){
