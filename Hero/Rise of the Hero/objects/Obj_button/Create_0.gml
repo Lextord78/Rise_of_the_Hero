@@ -5,7 +5,7 @@ image_yscale = 5
 
 correctOrder = 0
 on = false
-touchingSword = false
+//touchingSword = false
 
 
 

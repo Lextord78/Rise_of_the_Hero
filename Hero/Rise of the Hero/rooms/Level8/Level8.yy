@@ -64,6 +64,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5418AE73","properties":[],"isDnd":false,"objectId":{"name":"Obj_b4","path":"objects/Obj_b4/Obj_b4.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":432.0,"y":269.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_38162CB0","properties":[],"isDnd":false,"objectId":{"name":"Obj_b3","path":"objects/Obj_b3/Obj_b3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1199.0,"y":661.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_14080858","properties":[],"isDnd":false,"objectId":{"name":"Obj_b5","path":"objects/Obj_b5/Obj_b5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1293.0,"y":273.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A5400C3","properties":[],"isDnd":false,"objectId":{"name":"Obj_puzzleOrder","path":"objects/Obj_puzzleOrder/Obj_puzzleOrder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":672.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_1_1","spriteId":{"name":"L8Floor","path":"sprites/L8Floor/L8Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":48.0,},
@@ -238,6 +239,7 @@
     {"name":"inst_5418AE73","path":"rooms/Level8/Level8.yy",},
     {"name":"inst_38162CB0","path":"rooms/Level8/Level8.yy",},
     {"name":"inst_14080858","path":"rooms/Level8/Level8.yy",},
+    {"name":"inst_A5400C3","path":"rooms/Level8/Level8.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

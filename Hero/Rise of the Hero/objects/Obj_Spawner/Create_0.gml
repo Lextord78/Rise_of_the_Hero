@@ -5,8 +5,8 @@ timeMax = 300
 
 enemyAmount = 3
 
-maxSpawnHealth = 10
-spawnerHealth = maxSpawnHealth
+//maxSpawnHealth = 10
+//spawnerHealth = maxSpawnHealth
 
 
 
