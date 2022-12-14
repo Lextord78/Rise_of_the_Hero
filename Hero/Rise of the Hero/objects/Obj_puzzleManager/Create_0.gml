@@ -3,6 +3,8 @@
 
 //buttonOrder = Obj_b1, Obj_b2, Obj_b3, Obj_b4, Obj_b5
 
+doorSpawn = Obj_L3OpenDoor
+
 mode = 0
 
 placement = 0
@@ -19,17 +21,8 @@ buttons = [
 	0,
 	0]
 	
-/*buttons2 = [
-	0,
-	0]
-	
-buttons3 = [
-	0,
-	0,
-	0,
-	0,
-	0]
-*/
+
+
 solution1 = [
 	1,
 	2,
@@ -37,7 +30,7 @@ solution1 = [
 	4,
 	5]
 	
-/*solution2 = [
+solution2 = [
 	1,
 	2]
 	
@@ -47,7 +40,11 @@ solution3 = [
 	3,
 	2,
 	1]
-*/
+	
+whichSolution = solution1
+
+feedback = "Hello"
 celebration = "You haven't beaten the puzzle"
+failure = "You failed"
 
 completed = false

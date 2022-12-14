@@ -8,7 +8,7 @@ draw_text(x,120,string(buttons[3]))
 draw_text(x,150,string(buttons[4]))
 
 draw_text(x,200,string(placement))
-draw_text(x,260,celebration)
+draw_text(x,260,feedback)
 
 
 

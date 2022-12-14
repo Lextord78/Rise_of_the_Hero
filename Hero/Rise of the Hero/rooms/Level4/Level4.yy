@@ -56,6 +56,8 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_654D0D7B","properties":[],"isDnd":false,"objectId":{"name":"Obj_b1","path":"objects/Obj_b1/Obj_b1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1102.0,"y":256.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_9321125","properties":[],"isDnd":false,"objectId":{"name":"Obj_b2","path":"objects/Obj_b2/Obj_b2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1102.0,"y":688.8441,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_43F3621C","properties":[],"isDnd":false,"objectId":{"name":"Obj_SwordPic","path":"objects/Obj_SwordPic/Obj_SwordPic.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":38.81798,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42A1A5A8","properties":[],"isDnd":false,"objectId":{"name":"Obj_puzzleOrder","path":"objects/Obj_puzzleOrder/Obj_puzzleOrder.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":96.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1059CC72","properties":[],"isDnd":false,"objectId":{"name":"Obj_puzzleManager","path":"objects/Obj_puzzleManager/Obj_puzzleManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":320.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Floor","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_735DB289_3","spriteId":{"name":"L4Floor","path":"sprites/L4Floor/L4Floor.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":48.0,"y":48.0,},
@@ -242,6 +244,8 @@
     {"name":"inst_654D0D7B","path":"rooms/Level4/Level4.yy",},
     {"name":"inst_9321125","path":"rooms/Level4/Level4.yy",},
     {"name":"inst_43F3621C","path":"rooms/Level4/Level4.yy",},
+    {"name":"inst_42A1A5A8","path":"rooms/Level4/Level4.yy",},
+    {"name":"inst_1059CC72","path":"rooms/Level4/Level4.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
