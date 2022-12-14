@@ -5,8 +5,8 @@ if !on{
 	{
 		//instance_destroy(Obj_button)
 		on = true
-		//Obj_puzzleManager.buttons[Obj_puzzleManager.placement] = correctOrder
-		//Obj_puzzleManager.placement += 1
+		Obj_puzzleManager.buttons[Obj_puzzleManager.placement] = correctOrder
+		Obj_puzzleManager.placement += 1
 		
 	}
 	

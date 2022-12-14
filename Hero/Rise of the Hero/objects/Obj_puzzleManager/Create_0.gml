@@ -19,7 +19,7 @@ buttons = [
 	0,
 	0]
 	
-buttons2 = [
+/*buttons2 = [
 	0,
 	0]
 	
@@ -29,7 +29,7 @@ buttons3 = [
 	0,
 	0,
 	0]
-
+*/
 solution1 = [
 	1,
 	2,
@@ -37,7 +37,7 @@ solution1 = [
 	4,
 	5]
 	
-solution2 = [
+/*solution2 = [
 	1,
 	2]
 	
@@ -47,7 +47,7 @@ solution3 = [
 	3,
 	2,
 	1]
-
+*/
 celebration = "You haven't beaten the puzzle"
 
 completed = false
