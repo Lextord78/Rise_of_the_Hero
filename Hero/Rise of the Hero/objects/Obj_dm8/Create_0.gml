@@ -4,7 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
-	"(Press Enter to start Dialogue Chain)",
+	"(Keep pressing Enter to show the story)",
     "Laguna - ' '(This is the type of puzzle my Mom taught me)' ' ",
 	"Laguna - ' '(This is why I have to save Steel, he knows where my Mother is)' ' ",
 	"Unknown - ' 'So that is why you want to save Steel so badly, he knows where your mother is.' '",

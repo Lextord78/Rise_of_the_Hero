@@ -4,7 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
-	"(Keep pressing enter to show the story)",
+	"(Keep pressing Enter to show the story)",
 	"Laguna- ' 'STEEL... Steel?' '",
 	"Laguna- ' 'Other me... where is anyone?' '",
 	"Laguna- ' 'What was I doing...?' '",

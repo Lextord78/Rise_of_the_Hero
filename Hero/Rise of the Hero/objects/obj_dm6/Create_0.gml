@@ -4,7 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
-	"(Press Enter to start Dialogue Chain)",
+	"(Keep pressing Enter to show the storyn)",
 	"Laguna - ' 'Where are you?' '",
 	"Unknown -' 'Who knows? You may be getting close. ' '",
 	"Laguna - ' 'That does not answer my question.' '",

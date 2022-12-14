@@ -4,7 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
-	"(Press Enter to start Dialogue Chain)",
+	"(Keep pressing Enter to show the story)",
     "Laguna - ' 'Ok, ok,  I can do this' ' ",
     "Laguna - ' 'I will do it, ' '",
     "Laguna - ' 'I will save Steel. ' '",

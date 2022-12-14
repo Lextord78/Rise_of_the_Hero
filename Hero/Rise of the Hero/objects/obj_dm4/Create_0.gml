@@ -4,7 +4,7 @@
 currentDialogue = 0;
 
 dialogue = [
-	"(Press Enter to start Dialogue Chain)",
+	"(Keep pressing Enter to show the story)",
 	"Unknown - ' 'Do you want to hear from Steel? ' '",
 	"Laguna - ' 'What is this, a bluff to get me to faulter?... ' '",
 	"Steel - ' 'Laguna...Laguna, is that you... is that really you? ' '",
