@@ -1,6 +1,7 @@
  if object_exists(Obj_enemy)
 {
 	amountEnemy = instance_number(Obj_enemy)
+	amountEnemy = instance_number(Obj_EvilLaguna)
 	
 }
 
