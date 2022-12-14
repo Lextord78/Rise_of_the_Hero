@@ -16,22 +16,21 @@ if completed = false{
 		completed = true
 	}
 		
-	
-			if array_equals(buttons, solution1)
+			if array_equals(buttons2, solution2)
 			{
 				celebration = "Next Room!"
-				instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
+				instance_create_depth(1284, 384, 0,Obj_L4OpenDoor)
 				completed = true
-			
 			}
-		
-				if array_equals(buttons, solution2)
+			
+	
+					if array_equals(buttons3, solution3)
 				{
 					celebration = "Next Room!"
-					instance_create_depth(1284, 384, 0,Obj_L4OpenDoor)
+					instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
 					completed = true
+			
 				}
-	
 }
 
 if !array_equals(buttons, solution1){
@@ -42,13 +41,20 @@ if !array_equals(buttons, solution1){
 
 }
 
-if !array_equals(buttons, solution2)
+if !array_equals(buttons2, solution2)
 {
 	if placement >= buttonAmount
 		{
 			celebration = "Try Again"
 			resetTimer = resetTimerMax
 		}
+			if array_equals(buttons3, solution3)
+			{
+				celebration = "Revearsle"
+				instance_create_depth(1284, 384, 0, Obj_L8OpenDoor)
+				completed = true
+			
+			}
 }
 
 //if buttons[0] != solution1[0]{

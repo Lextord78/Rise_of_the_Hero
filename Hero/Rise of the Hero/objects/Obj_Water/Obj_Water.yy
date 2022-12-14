@@ -11,7 +11,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_FallingLava",
+    "path": "objects/Obj_FallingLava/Obj_FallingLava.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

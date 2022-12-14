@@ -18,6 +18,17 @@ buttons = [
 	0,
 	0,
 	0]
+	
+buttons2 = [
+	0,
+	0]
+	
+buttons3 = [
+	0,
+	0,
+	0,
+	0,
+	0]
 
 solution1 = [
 	1,
@@ -29,6 +40,13 @@ solution1 = [
 solution2 = [
 	1,
 	2]
+	
+solution3 = [
+	5,
+	4,
+	3,
+	2,
+	1]
 
 celebration = "You haven't beaten the puzzle"
 
