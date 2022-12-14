@@ -9,3 +9,4 @@
 // Inherit the parent event
 event_inherited();
 
+goToRoom = Level10
