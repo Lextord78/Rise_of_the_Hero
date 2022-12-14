@@ -32,7 +32,10 @@ solution1 = [
 	
 solution2 = [
 	1,
-	2]
+	2,
+	0,
+	0,
+	0]
 	
 solution3 = [
 	5,

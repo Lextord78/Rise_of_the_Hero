@@ -21,7 +21,7 @@ if room = Level4
 {
 	celebration = "Next Room!"
 	failure = "Try Agian!"
-	doorSpawn = Obj_L3OpenDoor
+	doorSpawn = Obj_L4OpenDoor
 	whichSolution = solution2
 }
 
