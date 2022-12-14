@@ -66,6 +66,8 @@ if  uPressed or dPressed or lPressed or rPressed {
 		{
 		hasHit = true
 		hitEnemy = instance_nearest(x,y,Obj_enemy)
+		hitEnemy = instance_nearest(x, y, Obj_EvilLaguna)
+		hitEnemy = instance_nearest(x, y, Obj_eArcher)
 		//hitEnemy.currentHp -= 3;
 		hitEnemy.knockBackX = hitEnemy.x + (x_mod*2)
 		hitEnemy.knockBackY = hitEnemy.y + (y_mod*2)
