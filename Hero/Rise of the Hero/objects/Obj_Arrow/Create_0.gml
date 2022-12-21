@@ -1,3 +1,3 @@
 spd = 20
 hspd = 5
-vspd = 0
+vspd = 5

@@ -143,7 +143,9 @@ if collision_circle(x,y,12,Obj_SwordPic,false,true){
 if collision_circle(x,y,12,Obj_BowPic,false,true)
 	{
 		wBow = instance_nearest(x,y,Obj_BowPic);
+		wArrow = instance_nearest(x,y,Obj_ArrowPic)
 		instance_destroy(wBow);
+		instance_destroy(wArrow)
 		hasBow = true;
 		arrows += 50
 		instance_create_depth(x,y,0,Obj_Bow);
